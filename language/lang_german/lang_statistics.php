@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_statistics.php 33 2009-05-02 16:34:07Z TheSteffen $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -74,8 +74,6 @@ $lang = array_merge($lang, array(
 	'Installed' => 'Installiert',
 	'Uninstall' => 'Deinstallieren',
 	'Uninstalled' => 'Deinstalliert',
-	'Move_up' => 'Einen Eintrag hoch',
-	'Move_down' => 'Einen Eintrag runter',
 	'Update_time' => 'Update Zeit',
 	'Auth_settings_updated' => 'Berechtigungen - [Diese werden immer aktualisiert]',
 

@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_main.php 43 2009-07-16 10:33:26Z TheSteffen $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -43,6 +43,10 @@ $lang['BBC_IP_CREDITS_STATIC'] = '
 <br />
 <br />
 <span style="color: #ff5500;"><b>KasLimon</b></span><br />
+<b><i>Junior Developer</i></b><br />
+<br />
+<br />
+<span style="color: #ff5500;"><b>Informpro</b></span><br />
 <b><i>Junior Developer</i></b><br />
 <br />
 <br />
@@ -335,7 +339,7 @@ $lang = array_merge($lang, array(
 
 	'No_newer_topics' => 'Es gibt keine neueren Themen in diesem Forum.',
 	'No_older_topics' => 'Es gibt keine älteren Themen in diesem Forum.',
-	'Topic_post_not_exist' => 'Das gewählte Thema oder der Beitrag existiert nicht.',
+	'Topic_post_not_exist' => 'Das gewählte Thema oder Beitrag existiert nicht.',
 	'No_posts_topic' => 'Es existieren keine Beiträge zu diesem Thema.',
 
 	'Display_posts' => 'Beiträge der letzten Zeit anzeigen',
@@ -1563,22 +1567,22 @@ $lang = array_merge($lang, array(
 	'Login_Hidden' => 'Versteckt',
 	'Login_Visible' => 'Sichtbar',
 	'Login_Default' => 'Standard',
-	'Errors_Not_Found' => 'Die angeforderte Adresse wurde auf diesem Server nicht gefunden.',
-	'Errors_000' => 'Unbekannter Fehler',
-	'Errors_000_Full' => 'Die angeforderte Adresse hat einen unbekannten Fehlercode zurückgegeben.<br />Der Fehler wurde in eine Log-Datei geschrieben und wir werden so schnell wie möglich prüfen, wo das Problem liegt.',
-	'Errors_400' => 'Fehler 400',
-	'Errors_400_Full' => 'Die angeforderte Adresse ist ungültig.',
-	'Errors_401' => 'Fehler 401 - Nicht berechtigt',
-	'Errors_401_Full' => 'Du erhältst diese Fehlermeldung, weil du nicht berechtigt bist, diese Adresse aufzurufen.',
-	'Errors_403' => 'Fehler 403',
-	'Errors_403_Full' => 'Zugriff auf diese Adresse ist verboten.',
-	'Errors_404' => 'Fehler 404 - Datei nicht gefunden',
-	'Errors_404_Full' => 'Die angeforderte Adresse wurde auf dem Server nicht gefunden. Vielleicht hast du die Adresse falsch eingegeben, oder die angeforderte Seite ist nicht mehr auf dem Server.',
-	'Errors_500' => 'Fehler 500 - Konfigurationsfehler',
-	'Errors_500_Full' => 'Die angeforderte Adresse lieferte einen Konfigurationsfehler.<br />Der Fehler wurde in eine Log-Datei geschrieben und wir werden so schnell wie möglich prüfen, wo das Problem liegt.',
-	'Errors_Email_Subject' => 'Fehler: ',
-	'Errors_Email_Addrress_Prefix' => 'icy_phoenix_errors',
-	'Errors_Email_Body' => 'Auf deiner Seite ist ein Fehler aufgetreten. Bitte überprüfe die Log-Datei.',
+	'ERRORS_NOT_FOUND' => 'Die angeforderte Adresse wurde auf diesem Server nicht gefunden.',
+	'ERRORS_000' => 'Unbekannter Fehler',
+	'ERRORS_000_FULL' => 'Die angeforderte Adresse hat einen unbekannten Fehlercode zurückgegeben.<br />Der Fehler wurde in eine Log-Datei geschrieben und wir werden so schnell wie möglich prüfen, wo das Problem liegt.',
+	'ERRORS_400' => 'Fehler 400',
+	'ERRORS_400_FULL' => 'Die angeforderte Adresse ist ungültig.',
+	'ERRORS_401' => 'Fehler 401 - Nicht berechtigt',
+	'ERRORS_401_FULL' => 'Du erhältst diese Fehlermeldung, weil du nicht berechtigt bist, diese Adresse aufzurufen.',
+	'ERRORS_403' => 'Fehler 403',
+	'ERRORS_Full' => 'Zugriff auf diese Adresse ist verboten.',
+	'ERRORS_404' => 'Fehler 404 - Datei nicht gefunden',
+	'ERRORS_404_FULL' => 'Die angeforderte Adresse wurde auf dem Server nicht gefunden. Vielleicht hast du die Adresse falsch eingegeben, oder die angeforderte Seite ist nicht mehr auf dem Server.',
+	'ERRORS_500' => 'Fehler 500 - Konfigurationsfehler',
+	'ERRORS_500_FULL' => 'Die angeforderte Adresse lieferte einen Konfigurationsfehler.<br />Der Fehler wurde in eine Log-Datei geschrieben und wir werden so schnell wie möglich prüfen, wo das Problem liegt.',
+	'ERRORS_EMAIL_SUBJECT' => 'Fehler: ',
+	'ERRORS_EMAIL_ADDRRESS_PREFIX' => 'errors_management',
+	'ERRORS_EMAIL_BODY' => 'Auf deiner Seite ist ein Fehler aufgetreten. Bitte überprüfe die Log-Datei.',
 	'Remote_avatar_no_image' => 'Das Bild %s ist nicht vorhanden',
 	'Remote_avatar_error_filesize' => 'Das Bild ist zu groß. Avatare dürfen maximal (%d Bytes) groß sein.',
 	'Remote_avatar_error_dimension' => 'Die Bildpixelgröße ist zu groß. Avatare dürfen maximal (%d x %d Pixel) groß sein.',
@@ -2392,6 +2396,18 @@ $lang = array_merge($lang, array(
 	'REPLIES' => 'Antworten',
 	'SUBJECT' => 'Betreff',
 	'VIEWS' => 'Aufrufe',
+
+	'INVALID' => 'Ungültige Daten.',
+	'TOO_LARGE' => 'Der eingegebene Wert ist zu groß.',
+	'TOO_LONG' => 'Der eingegebene Wert ist zu lang.',
+	'TOO_SHORT' => 'Der eingegebene Wert ist zu kurz.',
+	'TOO_SMALL' => 'Der eingegebene Wert ist zu klein.',
+	'WRONG_DATA' => 'Ungültige Daten.',
+
+	'ERROR_NO_ATTACHMENT' => 'Die Datei, die du herunterladen möchtest, existiert nicht.',
+	'NO_FORUM' => 'Das ausgewählte Forum existiert nicht.',
+	'NO_TOPIC' => 'Das Thema oder der Beitrag existiert nicht.',
+	'NO_USER' => 'Dieser Benutzer existiert nicht.',
 
 	)
 );

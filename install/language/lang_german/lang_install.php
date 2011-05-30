@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_install.php 88 2010-01-30 18:08:14Z TheSteffen $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -19,7 +19,7 @@ $lang = array_merge($lang, array(
 	'ENCODING' => 'UTF-8',
 	'DIRECTION' => 'ltr',
 	'HEADER_LANG' => 'de-de',
-	'HEADER_XML_LANG' => 'de-de',
+	'HEADER_LANG_XML' => 'de-de',
 	'LEFT' => 'links',
 	'RIGHT' => 'rechts',
 

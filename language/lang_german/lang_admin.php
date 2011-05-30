@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 40 2009-05-24 14:29:13Z TheSteffen $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -368,9 +368,9 @@ $lang = array_merge($lang, array(
 	'Action' => 'Aktion',
 	'Update_order' => 'Reihenfolge ändern',
 	'Config_updated' => 'Konfiguration erfolgreich 	geändert',
-	'Move_up' => 'Nach oben',
-	'Move_down' => 'Nach unten',
-	'Resync' => 'Resync',
+	'MOVE_UP' => 'Nach oben',
+	'MOVE_DOWN' => 'Nach unten',
+	'RESYNC' => 'Resync',
 	'No_mode' => 'Kein Modus ausgewählt',
 	'Forum_edit_delete_explain' => 'Hier kannst du alle allgemeinen Boardeinstellungen anpassen. Zur Benutzer- und Forenkonfiguration benutze bitte die entsprechenden Links auf der linken Seite',
 	'Forum_Expand' => 'Aufklappen',
@@ -1744,8 +1744,6 @@ $lang = array_merge($lang, array(
 	'Deleted_Group' => 'Gelöschte Gruppe.  Alle Benutzer die in diese Gruppe waren sind nun ohne Gruppen Mitgliedschaft<br />',
 	'Hide' => 'Verstecken',
 	'Un-hide' => 'Sichtbar machen',
-	'Move_Up' => 'Nach oben verschieben',
-	'Move_Down' => 'Nach unten verschieben',
 	'Group_Hidden' => 'Gruppe versteckt<br />',
 	'Group_Unhidden' => 'Gruppe sichtbar<br />',
 	'Groups_Updated' => 'Gruppen Änderungen wurden aktualisiert<br />',
@@ -2013,7 +2011,7 @@ $lang = array_merge($lang, array(
 	'TOKEN' => 'Token',
 	'TOKENS' => 'Tokens',
 	'TOKENS_EXPLAIN' => 'Tokens are placeholders for user input. The input will be validated only if it matches the corresponding definition. If needed, you can number them by adding a number as the last character between the braces, e.g. {TEXT1}, {TEXT2}.<br /><br />Within the HTML replacement you can also use any language string present in your language/ directory like this: {L_<em>&lt;STRINGNAME&gt;</em>} where <em>&lt;STRINGNAME&gt;</em> is the name of the translated string you want to add. For example, {L_WROTE} will be displayed as &quot;wrote&quot; or its translation according to userâ€™s locale.<br /><br /><strong>Please note that only tokens listed below are able to be used within custom BBCodes.</strong>',
-	'TOKEN_DEFINITION' => 'What can it be?',
+	'TOKEN_DEFINITION' => 'Was kann das sein?',
 	'TOO_MANY_BBCODES' => 'You cannot create any more BBCodes. Please remove one or more BBCodes then try again.',
 
 	'BBCODES_TOKENS_DESCRIPTION' => '
