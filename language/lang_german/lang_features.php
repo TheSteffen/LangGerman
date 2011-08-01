@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'cat_security' => 'Sicherheit',
 
 	'item_perm_ban' => 'Dauerhafte Sperren',
-	'item_temp_ban' => 'Vorrübergehende Sperren',
+	'item_temp_ban' => 'Vorübergehende Sperren',
 	'item_permission' => 'Berechtigungen',
 	'item_paid_sec' => 'Kommerzieller Sicherheitsaudit des Codes',
 	'item_form_hand' => 'Formular-Verarbeitung',

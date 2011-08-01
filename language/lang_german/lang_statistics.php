@@ -31,7 +31,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 // Wenn du den Autor auf der Statistik Seite würdigen möchtest, dann unkommentiere die zweite Zeile.
 // 'Version_info' => '<br />Statistik Mod Version %s', //%s = nummer
-	'Version_info' => '<br />Statistics Mod Version %s &copy; 2002 <a href="http://www.opentools.de/board">Acyd Burn</a>',
+	'Version_info' => '<br />Statistik Mod recoded by <a href="http://www.icyphoenix.com/">Mighty Gorgon</a> based on Version %s &copy; 2002 <a href="http://www.opentools.de/board">Acyd Burn</a>',
 
 // Diese Sprach Variablen sind für alle installierten Module verfügbar
 	'Rank' => 'Rang',
@@ -216,7 +216,7 @@ $lang = array_merge($lang, array(
 	'module_name_site_hist_week_top_posters' => 'Die aktivesten Benutzer diese Woche',
 	'Week_Var' => '[%s]', // %s wird durch die aktuelle Woche ersetzt
 
-	'module_name_top_attachments' => 'Am häufigsten heruntergeladene Anhänge',
+	'module_name_top_attachments' => 'Am häufigsten heruntergeladene Dateianhänge',
 	'File_name' => 'Dateiname',
 	'File_comment' => 'Dateikommentar',
 

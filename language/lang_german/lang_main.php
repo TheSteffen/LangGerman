@@ -871,7 +871,7 @@ $lang = array_merge($lang, array(
 	'Auth_Administrators' => '<b>Administratoren</b>',
 
 	'Not_Moderator' => 'Du bist nicht Moderator dieses Forums.',
-	'Not_Authorized' => 'Nicht berechtigt',
+	'Not_Authorized' => 'Nicht berechtigt!',
 
 	'You_been_banned' => 'Du wurdest von diesem Forum verbannt.<br />Kontaktiere den Administrator, um mehr Informationen zu erhalten.',
 
@@ -2408,6 +2408,8 @@ $lang = array_merge($lang, array(
 	'NO_FORUM' => 'Das ausgewählte Forum existiert nicht.',
 	'NO_TOPIC' => 'Das Thema oder der Beitrag existiert nicht.',
 	'NO_USER' => 'Dieser Benutzer existiert nicht.',
+
+	'AJAX_SEARCH' => 'Suche...',
 
 	)
 );
