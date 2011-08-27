@@ -47,6 +47,20 @@ if ($lang_extend_admin)
 	$lang = array_merge($lang, array(
 		'Lang_extend_icy_phoenix' => 'Icy Phoenix',
 
+// TAB - SERVER
+		'SITE_META_KEYWORDS' => 'Meta Keywords',
+		'SITE_META_KEYWORDS_SWITCH' => 'Aktiviere Meta Keywords von der DB',
+		'SITE_META_KEYWORDS_SWITCH_EXPLAIN' => 'If you enable meta keywords, then keywords specified above will be used in html pages instead of the keywords defined in <i>lang_main_settings.php</i>.',
+		'SITE_META_DESCRIPTION' => 'Meta Description',
+		'SITE_META_DESCRIPTION_SWITCH' => 'Enable Meta Description From DB',
+		'SITE_META_DESCRIPTION_SWITCH_EXPLAIN' => 'If you enable meta description from db, then description specified above will be used in html pages instead of the one defined in <i>lang_main_settings.php</i>.',
+		'SITE_META_AUTHOR' => 'Meta Author',
+		'SITE_META_AUTHOR_SWITCH' => 'Enable Meta Author From DB',
+		'SITE_META_AUTHOR_SWITCH_EXPLAIN' => 'If you enable meta author, then author specified above will be used in html pages instead of the one defined in <i>lang_main_settings.php</i>.',
+		'SITE_META_COPYRIGHT' => 'Meta Copyright',
+		'SITE_META_COPYRIGHT_SWITCH' => 'Enable Meta Copyright From DB',
+		'SITE_META_COPYRIGHT_SWITCH_EXPLAIN' => 'If you enable meta copyright, then copyright specified above will be used in html pages instead of the copyright defined in <i>lang_main_settings.php</i>.',
+
 // TAB - Icy Phoenix
 		'IP_enable_xs_version_check' => 'Aktiviere Icy Phoenix Versions Überprüfung',
 		'IP_enable_xs_version_check_explain' => 'Bei Aktivierung dieser Option wird bei jedem ACP Besuch überprüft ob eine neuere Icy Phoenix Version zum Download verfügbar ist. Die Deaktivierung dieser Option kann das Laden des ACPs etwas erhöhen. Wie auch immer, beachte das diese Überprüfung nur einmal am Tag stattfindet und dann im Cache abgelegt wird.',
