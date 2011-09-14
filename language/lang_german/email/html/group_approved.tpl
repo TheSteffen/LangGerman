@@ -1,7 +1,7 @@
 Subject: Deine Beitrittsanfrage wurde akzeptiert
 Charset: utf-8
 <br /><font face="Verdana" size="2">
-Glückwunsch,<br /><br />
+GlÃ¼ckwunsch,<br /><br />
 
 Deine Anfrage zum Beitritt zur Gruppe "<b>{GROUP_NAME}</b>" bei <b>{SITENAME}</b> wurde akzeptiert.<br /><br />
 

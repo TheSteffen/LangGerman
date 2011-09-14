@@ -2416,6 +2416,9 @@ $lang = array_merge($lang, array(
 	'LINKEDIN' => 'LinkedIn',
 	'YOUTUBE' => 'YouTube',
 
+	'MOBILE_STYLE_ENABLE' => 'Aktiviere Mobil freundlichen Style',
+	'MOBILE_STYLE_DISABLE' => 'Deaktiviere Mobil freundlichen Style',
+
 	)
 );
 

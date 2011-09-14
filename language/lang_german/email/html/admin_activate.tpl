@@ -5,7 +5,7 @@ Charset: utf-8
 <b>Hallo,</b>
 <br />
 Das Benutzer-Konto von "<b>{USERNAME}</b>" wurde neu erstellt oder deaktiviert.<br />
-Du solltest dir die Details ansehen (wenn nötig) und das Benutzer-Konto danach per Klick auf den folgenden Link aktivieren:<br />
+Du solltest dir die Details ansehen (wenn nÃ¶tig) und das Benutzer-Konto danach per Klick auf den folgenden Link aktivieren:<br />
 <br />
 <a href="{U_ACTIVATE}" target="_blank">{U_ACTIVATE}</a><br />
 <br />
