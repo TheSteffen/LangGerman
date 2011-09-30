@@ -4,7 +4,7 @@ Charset: utf-8
 <br /><font face="Verdana" size="2">
 Hallo <b>{USERNAME}</b>,<br /><br />
 
-<b>{POSTERNAME}</b> hat auf das Thema "<b>{TOPIC_TITLE}</b>"im Forum "<b>{FORUM_NAME}</b>" bei <b>{SITENAME}</b> geantwortet.<br /><br />
+<b>{POSTERNAME}</b> hat auf das Thema "<b>{TOPIC_TITLE}</b>" im Forum "<b>{FORUM_NAME}</b>" bei <b>{SITENAME}</b> geantwortet.<br /><br />
 Du kannst den folgenden Link benutzen, um direkt zum Thema zu gelangen (es werden keine weiteren Erinnerungen gesendet, bis du das Thema gelesen hast):<br /><br />
 
 <a href="{U_TOPIC}" target="_blank">{U_TOPIC}</a>

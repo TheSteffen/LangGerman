@@ -339,7 +339,6 @@ $lang = array_merge($lang, array(
 
 	'No_newer_topics' => 'Es gibt keine neueren Themen in diesem Forum.',
 	'No_older_topics' => 'Es gibt keine älteren Themen in diesem Forum.',
-	'Topic_post_not_exist' => 'Das gewählte Thema oder Beitrag existiert nicht.',
 	'No_posts_topic' => 'Es existieren keine Beiträge zu diesem Thema.',
 
 	'Display_posts' => 'Beiträge der letzten Zeit anzeigen',
@@ -519,7 +518,6 @@ $lang = array_merge($lang, array(
 	'PM_disabled' => 'Private Nachrichten wurden in diesem Board deaktiviert.',
 	'Cannot_send_privmsg' => 'Der Administrator hat private Nachrichten für dich gesperrt.',
 	'No_to_user' => 'Du musst einen Benutzernamen angeben, um diese Nachricht zu senden.',
-	'No_such_user' => 'Es existiert kein Benutzer mit diesem Namen.',
 
 	'Disable_HTML_pm' => 'HTML in dieser Nachricht deaktivieren',
 	'Disable_ACRO_AUTO_pm' => 'Abkürzungserklärungen und Autolinks in dieser Nachricht deaktivieren',
@@ -534,7 +532,7 @@ $lang = array_merge($lang, array(
 
 	'Notification_subject' => 'Eine neue private Nachricht ist eingetroffen!',
 
-	'Find_username' => 'Benutzernamen finden',
+	'FIND_USERNAME' => 'Benutzernamen finden',
 	'Find' => 'Finden',
 	'No_match' => 'Keine Ergebnisse gefunden.',
 
@@ -594,7 +592,6 @@ $lang = array_merge($lang, array(
 	'Search_user_posts' => 'Alle Beiträge von %s anzeigen', // Find all posts by username
 	'Search_user_topics_started' => 'Finde alle Themen die von %s gestartet wurden', // Find all topics started by username
 
-	'No_user_id_specified' => 'Dieser Benutzer existiert nicht.',
 	'Wrong_Profile' => 'Du kannst nur dein eigenes Profil bearbeiten.',
 
 // Invision View Profile - BEGIN
@@ -1575,7 +1572,7 @@ $lang = array_merge($lang, array(
 	'ERRORS_401' => 'Fehler 401 - Nicht berechtigt',
 	'ERRORS_401_FULL' => 'Du erhältst diese Fehlermeldung, weil du nicht berechtigt bist, diese Adresse aufzurufen.',
 	'ERRORS_403' => 'Fehler 403',
-	'ERRORS_Full' => 'Zugriff auf diese Adresse ist verboten.',
+	'ERRORS_403_FULL' => 'Zugriff auf diese Adresse ist verboten.',
 	'ERRORS_404' => 'Fehler 404 - Datei nicht gefunden',
 	'ERRORS_404_FULL' => 'Die angeforderte Adresse wurde auf dem Server nicht gefunden. Vielleicht hast du die Adresse falsch eingegeben, oder die angeforderte Seite ist nicht mehr auf dem Server.',
 	'ERRORS_500' => 'Fehler 500 - Konfigurationsfehler',
@@ -1793,8 +1790,8 @@ $lang = array_merge($lang, array(
 // MG CMS - BEGIN
 	'CMS_TITLE' => 'CMS',
 	'CMS_MANAGEMENT' => 'CMS Verwaltung',
-	'CMS_CONFIG' => 'CMS Konfiguration',
-	'CMS_SETTINGS' => 'CMS Einstellungen',
+	'CMS_CONFIG' => 'Konfiguration',
+	'CMS_SETTINGS' => 'Einstellungen',
 	'CMS_ACP' => 'Bearbeite diese Seite',
 	'CUSTOM_PAGE' => 'Individuelle Seitenanpassung',
 // MG CMS - END
@@ -2418,6 +2415,13 @@ $lang = array_merge($lang, array(
 
 	'MOBILE_STYLE_ENABLE' => 'Aktiviere Mobil freundlichen Style',
 	'MOBILE_STYLE_DISABLE' => 'Deaktiviere Mobil freundlichen Style',
+
+	'INVALID_SESSION' => 'Ungültige Sitzung. Wenn das Problem weiterhin besteht, wende dich bitte an einen Administrator.',
+
+	'BACK_TO_TOP' => 'Top',
+	'BACK_TO_PREV' => 'Zurück zur vorherigen Seite',
+
+	'CMS_EDIT_PARENT_BLOCK' => 'Edit Parent Block',
 
 	)
 );

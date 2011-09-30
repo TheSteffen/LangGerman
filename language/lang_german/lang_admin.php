@@ -1880,7 +1880,7 @@ $lang = array_merge($lang, array(
 	'LOGS_ADMIN_DB_UTILITIES_BACKUP_download' => ', und hat sie heruntergeladen',
 	'LOGS_ADMIN_DB_UTILITIES_RESTORE' => 'DB wiederhergestellt von',
 	'LOGS_ADMIN_BOARD_CONFIG' => 'änderte die Board/Server Einstellungen',
-	'LOGS_ADMIN_BOARD_IP_CONFIG' => 'änderte die IcyPhoenix Einstellungen',
+	'LOGS_ADMIN_BOARD_IP_CONFIG' => 'änderte die Icy Phoenix Einstellungen',
 	'LOGS_ADMIN_GROUP_NEW' => 'erstellte Gruppe',
 	'LOGS_ADMIN_GROUP_DELETE' => 'löschte Gruppe',
 	'LOGS_ADMIN_GROUP_EDIT' => 'änderte Gruppe',
@@ -1893,9 +1893,9 @@ $lang = array_merge($lang, array(
 	'LOGS_CMS_LAYOUT_EDIT' => 'änderte %sdiese%s Seite',
 	'LOGS_CMS_LAYOUT_DELETE' => 'löschte eine Seite [ID=%s]',
 	'LOGS_CMS_BLOCK_EDIT' => 'änderte einen Block [ID=%s] auf %sdieser%s Seite',
-	'LOGS_CMS_BLOCK_EDIT_LS' => 'änderte einen Block [ID=%s] in einer Standard Seite [%s]',
+	'LOGS_CMS_BLOCK_EDIT_LS' => 'änderte einen Block [ID=%s] in einer Standardseite [%s]',
 	'LOGS_CMS_BLOCK_DELETE' => 'löschte einen Block [ID=%s] auf %sdieser%s Seite',
-	'LOGS_CMS_BLOCK_DELETE_LS' => 'löschte einen Block [ID=%s] in einer Standard-Seite [%s]',
+	'LOGS_CMS_BLOCK_DELETE_LS' => 'löschte einen Block [ID=%s] in einer Standardseite [%s]',
 /* Logs - END */
 
 	'SMILEYS_UPDATED' => 'Smilies aktualisiert',
@@ -1967,9 +1967,6 @@ $lang = array_merge($lang, array(
 
 	'FORUM_LIMIT_EDIT_TIME' => 'Limit User Post Edit Time',
 	'FORUM_LIMIT_EDIT_TIME_EXPLAIN' => 'By enabling this option users will be allowed to edit own messages only within the limit set in Posts configuration of Icy Phoenix (ACP &raquo; Configuration &raquo; Icy Phoenix &raquo; Posting And Messages)',
-
-	'BACK_TO_TOP' => 'Nach oben',
-	'BACK_TO_PREV' => 'Zurück zur vorherigen Seite',
 
 	// Custom BBCodes - BEGIN
 	'BBCODES_CUSTOM_BBCODES' => 'Benutzerdefinierte BBCodes',
@@ -2155,7 +2152,7 @@ $lang['180_Word_Censor'] = 'Wortzensur'; // admin_words.php
 $lang['200_Notepad'] = 'Admin Notizblock'; // admin_notepad.php
 $lang['210_Help_Desk'] = 'Hilfestellung'; // admin_helpdesk.php
 $lang['220_Tickets_Emails'] = 'E-Mail Kategorien'; // admin_tickets.php
-$lang['230_Custom_BBCodes'] = 'Custom BBCodes'; // admin_bbcodes.php
+$lang['230_Custom_BBCodes'] = 'Eigene BBCodes'; // admin_bbcodes.php
 $lang['240_Replace_title'] = 'Ersetzen in Beiträgen'; // admin_replace.php
 
 // Forum
@@ -2317,7 +2314,7 @@ $lang['180_Hide_Show_Games'] = 'Zeige/Verstecke Spiel'; // admin_ina_disable.php
 $lang['190_DB_Adjustments'] = 'DB Adjustments'; // admin_ina_in_un.php
 $lang['200_Mass_Change'] = 'Mass Configuration'; // admin_ina_mass.php
 $lang['210_Scores_Editor'] = 'Hi-Scores bearbeiten'; // admin_ina_scores.php
-$lang['220_Xtras'] = 'Extra Settings'; // admin_ina_xtras.php
+$lang['220_Xtras'] = 'Extra Einstellungen'; // admin_ina_xtras.php
 $lang['230_Check_Games'] = 'Spiele-Liste'; // admin_ina_xtras.php
 
 // ####################### [ ACP Navigation END ] #######################

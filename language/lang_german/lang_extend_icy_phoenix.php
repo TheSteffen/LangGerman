@@ -48,18 +48,22 @@ if ($lang_extend_admin)
 		'Lang_extend_icy_phoenix' => 'Icy Phoenix',
 
 // TAB - SERVER
-		'SITE_META_KEYWORDS' => 'Meta Keywords',
-		'SITE_META_KEYWORDS_SWITCH' => 'Aktiviere Meta Keywords von der DB',
-		'SITE_META_KEYWORDS_SWITCH_EXPLAIN' => 'If you enable meta keywords, then keywords specified above will be used in html pages instead of the keywords defined in <i>lang_main_settings.php</i>.',
-		'SITE_META_DESCRIPTION' => 'Meta Description',
-		'SITE_META_DESCRIPTION_SWITCH' => 'Enable Meta Description From DB',
-		'SITE_META_DESCRIPTION_SWITCH_EXPLAIN' => 'If you enable meta description from db, then description specified above will be used in html pages instead of the one defined in <i>lang_main_settings.php</i>.',
-		'SITE_META_AUTHOR' => 'Meta Author',
-		'SITE_META_AUTHOR_SWITCH' => 'Enable Meta Author From DB',
-		'SITE_META_AUTHOR_SWITCH_EXPLAIN' => 'If you enable meta author, then author specified above will be used in html pages instead of the one defined in <i>lang_main_settings.php</i>.',
+		'SITE_META_KEYWORDS' => 'Meta Schlüsselwörter',
+		'SITE_META_KEYWORDS_SWITCH' => 'Aktiviere Meta Schlüsselwörter von der DB',
+		'SITE_META_KEYWORDS_SWITCH_EXPLAIN' => 'Wenn du Meta Schlüsselwörter aktivierst, dann werden die oben angegebenen Schlüsselwörter auf den html Seiten benutzt. Sonst werden die Schlüsselwörter aus <i>lang_main_settings.php</i> verwendet.',
+		'SITE_META_DESCRIPTION' => 'Meta Beschreibung',
+		'SITE_META_DESCRIPTION_SWITCH' => 'Aktiviere Meta Beschreibung von der DB',
+		'SITE_META_DESCRIPTION_SWITCH_EXPLAIN' => 'Wenn du Meta Beschreibung aktivierst, dann wird die oben angegebene Beschreibung auf den html Seiten benutzt. Sonst wird die Beschreibung aus <i>lang_main_settings.php</i> verwendet.</i>.',
+		'SITE_META_AUTHOR' => 'Meta Verfasser',
+		'SITE_META_AUTHOR_SWITCH' => 'Aktiviere Meta Verfasser von der DB',
+		'SITE_META_AUTHOR_SWITCH_EXPLAIN' => 'Wenn du Meta Verfasser aktivierst, dann wird der oben angegebene Verfasser auf den html Seiten benutzt. Sonst wird der Verfasser aus <i>lang_main_settings.php</i> verwendet.</i>.',
 		'SITE_META_COPYRIGHT' => 'Meta Copyright',
-		'SITE_META_COPYRIGHT_SWITCH' => 'Enable Meta Copyright From DB',
-		'SITE_META_COPYRIGHT_SWITCH_EXPLAIN' => 'If you enable meta copyright, then copyright specified above will be used in html pages instead of the copyright defined in <i>lang_main_settings.php</i>.',
+		'SITE_META_COPYRIGHT_SWITCH' => 'Aktiviere Meta Copyright von der DB',
+		'SITE_META_COPYRIGHT_SWITCH_EXPLAIN' => 'Wenn du Meta Copyright aktivierst, dann wird der oben angegebene Copyright auf den html Seiten benutzt. Sonst wird der Copyright aus <i>lang_main_settings.php</i> verwendet.</i>.',
+
+// TAB - SITE
+		'IP_mobile_style_disable' => 'Deaktiviere Mobile Geräte Erkennung',
+		'IP_mobile_style_disable_explain' => 'Normalerweise wird für mobile Geräte der <b>Mobile</b> Style automatisch aktiviert (es kann von jedem Benutzer selbst deaktiviert werden). Wähle diese Funktion, wenn du die automatische Erkennung ausschalten möchtest.',
 
 // TAB - Icy Phoenix
 		'IP_enable_xs_version_check' => 'Aktiviere Icy Phoenix Versions Überprüfung',
@@ -209,6 +213,33 @@ if ($lang_extend_admin)
 		'IP_show_random_quote' => 'Zufallszitat :: Forum Index',
 		'IP_show_random_quote_explain' => 'Bei Aktivierung dieser Option, werden die Zufallszitate im <b>Forum Index</b> angezeigt.',
 
+// Spam Section
+		'IP_spam_measures_header' => 'Spam Maßnahmen',
+
+		'IP_spam_posts_number' => 'SPAM - Minimale Beiträge um Spam Maßnahmen zu vermeiden',
+		'IP_spam_posts_number_explain' => 'Bis ein Benutzer die angegebene Beitragszahl erreicht, werden diese Spam Maßnahmen ausgeführt (die nachstehenden mit SPAM Präfix)',
+		'IP_spam_p_0' => 'Deaktiviert',
+		'IP_spam_p_3' => '3',
+		'IP_spam_p_5' => '5',
+		'IP_spam_p_10' => '10',
+		'IP_spam_p_20' => '20',
+
+		'IP_spam_disable_url' => 'SPAM - Deaktiviere URLs in Beiträgen',
+		'IP_spam_disable_url_explain' => 'Diese Funktion entfernt alle URLs in den jeweiligen Beiträgen und ersetzt HTTP with H**P, solange, bis die oben angegebenen Minimalen Beiträge erreicht sind. Administratoren bekommen weiterhin den original Beitrag angezeigt.',
+
+		'IP_spam_hide_signature' => 'SPAM - Deaktiviere Signatur in Beiträgen',
+		'IP_spam_hide_signature_explain' => 'Diese Funktion versteckt die Signatur aller Benutzer, die die oben angegebenen Minimalen Beiträge noch nicht erreicht haben. Administratoren bekommen weiterhin die Signatur angezeigt.',
+
+		'IP_spam_post_edit_interval' => 'SPAM - Deaktiviere Beitrag bearbeiten',
+		'IP_spam_post_edit_interval_explain' => 'Durch Aktivierung dieser Funktion werden alle Benutzer, die die oben angegebenen Minimalen Beiträge noch nicht erreicht haben, nicht in der Lage sein, ihre Beiträge innerhalb der angegeben Zeit zu ändern.',
+		'IP_time_15m' => '15 Minuten',
+		'IP_time_30m' => '30 Minuten',
+		'IP_time_1h' => '1 Stunde',
+		'IP_time_2h' => '2 Stunden',
+		'IP_time_6h' => '6 Stunden',
+		'IP_time_12h' => '12 Stunden',
+		'IP_time_24h' => '24 Stunden',
+
 // TAB - Posting
 		'IP_posts_precompiled' => 'Deaktiviere Precompiled Beiträge für Gäste',
 		'IP_posts_precompiled_explain' => 'Bei Aktivierung dieser Option, analysiert die viewtopic.php den Beitrags-Text für Gäste, ohne den Precompiled Text zu verwenden (dies ist langsamer, aber kann in manchen Fällen nützlich sein).',
@@ -222,8 +253,8 @@ if ($lang_extend_admin)
 		'IP_allow_mods_edit_admin_posts' => 'Erlaube Moderatoren die Bearbeitung von Administrator Beiträgen',
 		'IP_allow_mods_edit_admin_posts_explain' => 'Erlaubt Moderatoren die Beiträge von Administratoren zu bearbeiten',
 
-		'IP_forum_limit_edit_time_interval' => 'Limit Edit Time Interval (Minutes)',
-		'IP_forum_limit_edit_time_interval_explain' => 'This sets the time interval for users to be allowed to edit own messages. Set to ZERO for no limits (feature should be enabled on a per forum basis in Forums Management)',
+		'IP_forum_limit_edit_time_interval' => 'Limit Edit Time Interval',
+		'IP_forum_limit_edit_time_interval_explain' => 'This sets the time interval for users to be allowed to edit own messages. Set to ZERO for no limits (feature should be enabled on a per forum basis in Forums Management). This setting will be applied to all users regardless to their number of posts, so it is different from the similar antispam feature which applies only for users who didn\'t reach a certain amount of posts.',
 
 		'IP_force_large_caps_mods' => 'Themen-Betreff anpassen',
 		'IP_force_large_caps_mods_explain' => 'Der Betreff jedes Themas wird angepaßt, indem der erste Buchstabe jedes Wortes groß geschrieben wird. (außer für Admins)',
