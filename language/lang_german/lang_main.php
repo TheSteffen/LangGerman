@@ -884,8 +884,8 @@ $lang = array_merge($lang, array(
 	'Guest_user_online' => 'Es ist ein Gast online.',
 	'No_users_browsing' => 'Im Moment sind keine Benutzer im Forum.',
 
-	'Online_explain' => 'Diese Daten zeigen an, wer in den letzten 5 Minuten online war.',
-	'Online_today' => 'Diese Daten zeigen an, wer in den letzten 24 Stunden online war.',
+	'ONLINE_EXPLAIN' => 'Diese Daten zeigen an, wer in den letzten 5 Minuten online war.',
+	'ONLINE_TODAY' => 'Diese Daten zeigen an, wer in den letzten 24 Stunden online war.',
 
 	'Forum_Location' => 'Welche Seite',
 	'Last_updated' => 'Zuletzt aktualisiert',
@@ -1784,7 +1784,7 @@ $lang = array_merge($lang, array(
 	'UserSport' => 'Sport/Team',
 	'UserMusic' => 'Musik/Gruppen',
 	'UserNoInfo' => 'Keine Informationen verfügbar',
-	'Last_Seen' => 'Zuletzt Online',
+	'LAST_SEEN' => 'Zuletzt Online',
 // New MG - END
 
 // MG CMS - BEGIN
@@ -1799,7 +1799,7 @@ $lang = array_merge($lang, array(
 // Icy Phoenix - BUILD 001
 	'SimilarTopics' => 'Ähnliche Beiträge',
 	'Chat' => 'Chat',
-	'Digests' => 'Digests',
+	'DIGESTS' => 'Digests',
 
 	'CPL_REG_INFO_EXPLAIN' => 'Benutzername, E-Mail-Adresse und Passwort',
 	'CPL_PROFILE_INFO_EXPLAIN' => 'Allgemeine Kontakt Information, Messenger, Geburtstag, Interessen und andere Informationen',

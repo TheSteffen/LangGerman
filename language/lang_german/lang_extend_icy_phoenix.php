@@ -227,8 +227,8 @@ if ($lang_extend_admin)
 		'IP_spam_disable_url' => 'SPAM - Deaktiviere URLs in Beiträgen',
 		'IP_spam_disable_url_explain' => 'Diese Funktion entfernt alle URLs in den jeweiligen Beiträgen und ersetzt HTTP with H**P, solange, bis die oben angegebenen Minimalen Beiträge erreicht sind. Administratoren bekommen weiterhin den original Beitrag angezeigt.',
 
-		'IP_spam_hide_signature' => 'SPAM - Deaktiviere Signatur in Beiträgen',
-		'IP_spam_hide_signature_explain' => 'Diese Funktion versteckt die Signatur aller Benutzer, die die oben angegebenen Minimalen Beiträge noch nicht erreicht haben. Administratoren bekommen weiterhin die Signatur angezeigt.',
+		'IP_spam_hide_signature' => 'SPAM - Deaktiviere Signatur und Web in Beiträgen',
+		'IP_spam_hide_signature_explain' => 'Diese Funktion versteckt die Signatur und persönliche Webseiten Informationen aller Benutzer, die die oben angegebenen Minimalen Beiträge noch nicht erreicht haben. Administratoren bekommen weiterhin die Signatur angezeigt.',
 
 		'IP_spam_post_edit_interval' => 'SPAM - Deaktiviere Beitrag bearbeiten',
 		'IP_spam_post_edit_interval_explain' => 'Durch Aktivierung dieser Funktion werden alle Benutzer, die die oben angegebenen Minimalen Beiträge noch nicht erreicht haben, nicht in der Lage sein, ihre Beiträge innerhalb der angegeben Zeit zu ändern.',
@@ -517,6 +517,9 @@ if ($lang_extend_admin)
 
 		'IP_cron_topics_interval' => 'Themen Cache Cron Intervall',
 		'IP_cron_topics_interval_explain' => 'Der Themen Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_topics_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_topics_last_run']), $config['board_timezone'])) . '</b>',
+
+		'IP_cron_sessions_interval' => 'Sessions-Säuberung Cron Intervall',
+		'IP_cron_sessions_interval_explain' => 'Sessions Tabellen werden in diesem Intervall geleert.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_sessions_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_sessions_last_run']), $config['board_timezone'])) . '</b>',
 
 		'Cron_Disabled' => 'Deaktiviert',
 		'Cron_Server' => 'Server Cron',
