@@ -1,5 +1,5 @@
 Subject: Neuer Link hinzugefügt
-Charset: utf-8
+
 <br /><font face="Verdana" size="2">
 Hallo Admin,<br /><br />
 

@@ -1,5 +1,4 @@
 Subject: Benachrichtigen bei Antworten - "{TOPIC_TITLE}" - Forum "{FORUM_NAME}"
-Charset: utf-8
 
 Hallo {USERNAME},
 

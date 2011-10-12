@@ -1,5 +1,5 @@
 Subject: Du hast eine Verwarnung erhalten!
-Charset: utf-8
+
 <br /><font face="Verdana" size="2">
 Hallo <b>{WARNED_POSTER}</b>,<br /><br />
 
@@ -18,5 +18,5 @@ Wir verweisen hiermit nochmals auf unsere Regeln, denen du zustimmtest, als du d
 Wenn dir nicht bewußt ist, warum du diese Verwarung erhalten hast, nimm Kontakt mit <b>{WARNER}</b> auf, der die Verwarnung ausgesprochen hat.
 Erkläre deinen Beitrag und warum du mit der Verwarnung nicht einverstanden bist. Bleibe dabei immer sachlich.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

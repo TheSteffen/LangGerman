@@ -1,5 +1,5 @@
 Subject: Benutzer-Konto bei {SITENAME} wieder aktivieren
-Charset: utf-8
+
 <br /><font face="Verdana" size="2">
 Hallo <b>{USERNAME}</b>,<br /><br />
 Dein Benutzer-Konto bei "<b>{SITENAME}</b>" wurde deaktiviert, vermutlich durch Änderungen an deinem Profil.<br /><br />
@@ -9,5 +9,5 @@ Klicke den folgenden Link an, um das Benutzer-Konto wieder zu aktivieren:<br /><
 Einige E-Mail Programme interpretieren diese URL nicht korrekt.<br />
 Falls du Fehler erhalten solltest, kopiere einfach diesen Link in deinen Internet Browser.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

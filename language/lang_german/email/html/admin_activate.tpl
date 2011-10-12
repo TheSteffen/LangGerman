@@ -1,5 +1,5 @@
 Subject: Neues Benutzer-Konto
-Charset: utf-8
+
 <font face="Verdana" size="2">
 <br />
 <b>Hallo,</b>
@@ -9,5 +9,5 @@ Du solltest dir die Details ansehen (wenn nötig) und das Benutzer-Konto danach 
 <br />
 <a href="{U_ACTIVATE}" target="_blank">{U_ACTIVATE}</a><br />
 <br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

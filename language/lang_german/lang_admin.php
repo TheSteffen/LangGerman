@@ -201,11 +201,11 @@ $lang = array_merge($lang, array(
 	'Group_memberships' => 'Benutzergruppenmitglieder',
 	'Usergroup_members' => 'Diese Gruppe hat die folgenden Mitglieder',
 
-	'Forum_auth_updated' => 'Forumsberechtigungen aktualisiert',
-	'User_auth_updated' => 'Benutzerberechtigungen aktualisiert',
-	'Group_auth_updated' => 'Gruppenberechtigungen aktualisiert',
+	'Forum_auth_updated' => 'Forumsberechtigungen aktualisiert.',
+	'User_auth_updated' => 'Benutzerberechtigungen aktualisiert.',
+	'Group_auth_updated' => 'Gruppenberechtigungen aktualisiert.',
 
-	'Auth_updated' => 'Befugnisse wurden aktualisiert',
+	'Auth_updated' => 'Befugnisse wurden aktualisiert.',
 	'Click_return_userauth' => 'Klicke %shier%s, um zu den Benutzerrechten zurückzukehren.',
 	'Click_return_groupauth' => 'Klicke %shier%s, um zu den Gruppenrechten zurückzukehren.',
 	'Click_return_forumauth' => 'Klicke %shier%s, um zu den Forenberechtigungen zurückzukehren.',
@@ -215,12 +215,12 @@ $lang = array_merge($lang, array(
 	'Ban_explain' => 'Hier kannst du Benutzer bannen. Du kannst entweder einen bestimmten Benutzer, eine IP-Adresse oder einen Hostnamen sperren. Durch diese Methode kann der Benutzer die Startseite des Forums nicht aufrufen. Um den Benutzer daran zu hindern, sich unter einem anderen Namen anzumelden, kannst du auch bestimmte E-Mail-Adressen sperren. Eine E-Mail-Sperre verhindert nur das Registrieren, nicht das Posten eines Benutzers!',
 	'Ban_explain_warn' => 'Bitte beachte, dass, wenn du mehrere IP-Adressen eingibst, alle Adressen zwischen dem Anfang und dem Ende der Sperrliste hinzugefügt werden. Versuche die Anzahl der Adressen klein zu halten, indem du Wildcards einsetzt, wo es möglich ist. Am besten ist es, eine konkrete IP-Adresse anzugeben.',
 
-	'Select_username' => 'Wähle einen Benutzernamen',
-	'Select_ip' => 'Wähle eine IP-Adresse',
-	'Select_email' => 'Wähle eine E-Mail-Adresse',
+	'Select_username' => 'Wähle einen Benutzernamen!',
+	'Select_ip' => 'Wähle eine IP-Adresse!',
+	'Select_email' => 'Wähle eine E-Mail-Adresse!',
 
 	'Ban_username' => 'Einen oder mehrere Benutzer bannen',
-	'Ban_username_explain' => 'Wenn du mehrere Benutzer auswählst, kannst du auch mehrere Benutzer auf einmal bannen',
+	'Ban_username_explain' => 'Wenn du mehrere Benutzer auswählst, kannst du auch mehrere Benutzer auf einmal bannen.',
 
 	'Ban_IP' => 'Eine(n) oder mehrere IP-Adressen/Hostnamen bannen',
 	'IP_hostname' => 'IP-Adressen oder Hostname',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'Email_sig' => 'E-Mail Signatur',
 	'Email_sig_explain' => 'Diese Signatur wird an alle E-Mails des Administrators angehängt',
 	'Use_SMTP' => 'Nutze einen SMTP Server zum Mailen',
-	'Use_SMTP_explain' => 'Wähle \'Ja\', wenn du möchtest, dass deine E-Mails über einen SMTP-Server gesendet werden',
+	'Use_SMTP_explain' => 'Wähle JA, wenn du möchtest, dass deine E-Mails über einen SMTP-Server gesendet werden',
 	'SMTP_server' => 'SMTP-Server Adresse',
 	'SMTP_port' => 'SMTP Port',
 	'SMTP_username' => 'SMTP Benutzername',
@@ -347,6 +347,8 @@ $lang = array_merge($lang, array(
 	'Cookie_secure' => 'Sicheres Cookie',
 	'Cookie_secure_explain' => 'Falls dein Server auf SSL läuft, aktiviere diese Funktion, ansonsten lasse sie deaktiviert',
 	'Session_length' => 'Sessionlänge [ Sekunden ]',
+	'SESSION_LAST_VISIT_RESET' => 'Letzten Besuch aktualisieren, wenn Session abgelaufen',
+	'SESSION_LAST_VISIT_RESET_EXPLAIN' => 'Wenn du diese Option aktivierst, wird die letzte Besuchszeit aktualisiert, auch wenn die Session bereits abgelaufen ist. Ansonsten wird die letzte Besuchszeit nur aktualisiert, wenn Autologin aktiviert ist und die maximale Login-Zeit noch nicht erreicht wurde.',
 
 // Visual Confirmation
 	'Visual_confirm' => 'Aktiviere visuelle Bestätigung',

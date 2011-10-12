@@ -344,6 +344,7 @@ $lang = array_merge($lang, array(
 	'CMS_Menu_New_link_name' => 'Link-Name',
 	'CMS_Menu_Default_link' => 'Standard Link (<b>*</b> wird ignoriert)',
 	'CMS_Menu_No_default_link' => 'Kein Standard Link (verwende benutzerdefinierte Einstellung)',
+	'CMS_MENU_NO_DEFAULT_LINK_SELECT' => '-- Kein Standard Link (verwende benutzerdefinierte Einstellung) --',
 	'CMS_Menu_New_menu_des' => 'Menü-Beschreibung',
 	'CMS_Menu_New_cat_des' => 'Kategorie-Beschreibung',
 	'CMS_Menu_New_link_des' => 'Link-Beschreibung',

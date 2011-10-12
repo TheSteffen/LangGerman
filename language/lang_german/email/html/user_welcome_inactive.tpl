@@ -1,7 +1,7 @@
 Subject: Willkommen bei {SITENAME}
-Charset: utf-8
+
 <br /><font face="Verdana" size="2">
-{WELCOME_MSG}
+Willkommen bei <b>{SITENAME}</b>
 <br /><br />
 Bitte speichere diese E-Mail für den Fall, dass du einmal dein Passwort vergessen solltest. Deine Login-Daten sind die Folgenden:
 <br /><br />
@@ -20,5 +20,5 @@ Wenn du es trotzdem vergessen solltest, kannst du aber jederzeit, auf der Login-
 <br /><br />
 Danke für deine Registrierung.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

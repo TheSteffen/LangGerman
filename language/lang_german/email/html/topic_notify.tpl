@@ -1,5 +1,4 @@
 Subject: Benachrichtigen bei Antworten - "{TOPIC_TITLE}" - Forum "{FORUM_NAME}"
-Charset: utf-8
 
 <br /><font face="Verdana" size="2">
 Hallo <b>{USERNAME}</b>,<br /><br />
@@ -20,5 +19,5 @@ Bis du den Link besucht hast, werden keine weiteren Benachrichtigungen für dies
 <br /><br />
 <a href="{U_STOP_WATCHING_TOPIC}" target="_blank">{U_STOP_WATCHING_TOPIC}</a>
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

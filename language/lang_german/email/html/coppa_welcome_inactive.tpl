@@ -1,7 +1,7 @@
 Subject: Willkommen bei {SITENAME}
-Charset: utf-8
+
 <br /><font face="Verdana" size="2">
-{WELCOME_MSG}
+Willkommen bei <b>{SITENAME}</b>
 <br /><br />
 Gemäß den COPPA-Richtlinien ist dein Benutzer-Konto im Moment inaktiv.<br /><br />
 
@@ -14,7 +14,7 @@ ODER sende sie an:<br /><br />
 {MAIL_INFO}<br /><br /><br />
 
 ------------------------------ Hier abschneiden ------------------------------<br />
-Erlaubnis bei {SITENAME} zu posten<br /><br />
+Erlaubnis bei {SITENAME} mitzumachen<br /><br />
 
 Benutzername: {USERNAME}<br />
 Passwort: {PASSWORD}<br />
@@ -51,5 +51,5 @@ Das Passwort wurde nur verschlüsselt in unserer Datenbank gespeichert, wenn du 
 Danke für deine Registrierung!
 
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

@@ -1,8 +1,7 @@
-Charset: utf-8
 <br /><font face="Verdana" size="2">
 {MESSAGE}
 <br /><br /><br />
-<span style="color:#a4a4a4; font-size:11">
+<span style="color: #a4a4a4; font-size: 11;">
 <i>Die obenstehende E-Mail wurde von {FROM_USERNAME} über dessen Benutzer-Konto bei </i>"<b>{SITENAME}</b>" <i>gesendet.</i><br />
 Wenn diese E-Mail unerwünschten Inhalt (Spam) enthält, dann kontaktiere bitte den Administrator unter:<br />
 <br />

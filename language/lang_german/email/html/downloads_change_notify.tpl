@@ -1,5 +1,4 @@
 Subject: Geänderter Download
-Charset: utf-8
 
 <br /><font face="Verdana" size="2">
 Hallo <b>{USERNAME}</b>,<br /><br />
@@ -18,5 +17,5 @@ Wenn du diesen Download ansehen willst, dann klicke auf folgenden Link:<br /><br
 Wenn du zukünftig keine Benachrichtigungen hierüber erhalten willst, dann entferne die Benachrichtigungen in den Download Details oder Deinem Downloads Benutzerprofil.<br /><br />
 
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

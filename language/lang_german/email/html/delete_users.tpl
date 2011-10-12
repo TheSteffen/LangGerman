@@ -1,5 +1,5 @@
 Subject: Dein Benutzer-Konto bei {SITENAME} wurde gelöscht
-Charset: utf-8
+
 <br /><font face="Verdana" size="2">
 Hallo <b>{USERNAME}</b>,<br />
 <br />
@@ -11,5 +11,5 @@ Falls du wieder Mitglied unserer Community werden willst, kannst du dich mit ein
 <a href="{U_REGISTER}" target="_blank">{U_REGISTER}</a>
 <br /><br />
 Du wirst keine weiteren E-Mails zu diesem Benutzer-Konto erhalten.
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

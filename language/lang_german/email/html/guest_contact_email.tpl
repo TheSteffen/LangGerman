@@ -1,5 +1,3 @@
-Charset: utf-8
-
 <br /><font face="Verdana" size="2">
 Hallo,<br /><br />
 
