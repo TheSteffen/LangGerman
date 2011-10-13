@@ -869,7 +869,7 @@ $lang = array_merge($lang, array(
 	'Not_Moderator' => 'Du bist nicht Moderator dieses Forums.',
 	'Not_Authorized' => 'Nicht berechtigt!',
 
-	'You_been_banned' => 'Du wurdest von diesem Forum verbannt.<br />Kontaktiere den Administrator, um mehr Informationen zu erhalten.',
+	'You_been_banned' => 'Du wurdest von dieser Website verbannt.<br />Kontaktiere den Administrator, um mehr Informationen zu erhalten.',
 
 // Viewonline
 	'Reg_users_zero_online' => 'Es sind kein registrierter und ', // There are 5 Registered and
@@ -2430,6 +2430,8 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LINK' => 'Neue Beiträge',
 	'LOGIN_LOGOUT_LINK' => 'Login/Logout',
 	'MENU_EMPTY_LINK' => 'Leerer Link',
+
+	'IP_BLACKLISTED' => 'Deine IP-Adresse %s wurde blockiert, da sie auf der Blacklist steht. Weitere Einzelheiten gibt es hier: <a href="%s">%s</a>.',
 
 	)
 );
