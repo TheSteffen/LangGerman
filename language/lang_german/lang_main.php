@@ -227,7 +227,7 @@ $lang = array_merge($lang, array(
 	'Registered_users_zero_total' => 'Wir haben <b>keine</b> registrierten Benutzer.', // # registered users
 	'Registered_users_total' => 'Wir haben <b>%d</b> registrierte Benutzer.', // # registered users
 	'Registered_user_total' => 'Wir haben <b>einen</b> registrierten Benutzer.', // # registered users
-	'Newest_user' => 'Der neuste Benutzer ist <b>%s%s%s</b>.', // a href, username, /a
+	'Newest_user' => 'Der neueste Benutzer ist <b>%s%s%s</b>.', // a href, username, /a
 
 	'No_new_posts_last_visit' => 'Keine neuen Beiträge seit deinem letzten Besuch',
 
@@ -255,7 +255,7 @@ $lang = array_merge($lang, array(
 	'Enter_password' => 'Gib bitte deinen Benutzernamen und dein Passwort ein, um dich einzuloggen.',
 	'Login' => 'Login',
 	'Logout' => 'Logout',
-	'Forgotten_password' => 'Ich habe mein Passwort vergessen!',
+	'Forgotten_password' => 'Passwort vergessen?',
 	'AUTOLOGIN' => 'Bei jedem Besuch automatisch einloggen',
 	'Error_login' => 'Du hast einen falschen oder inaktiven Benutzernamen oder ein falsches Passwort eingegeben.',
 
@@ -702,11 +702,11 @@ $lang = array_merge($lang, array(
 	'Reg_agreement' => 'Die Administratoren und Moderatoren dieses Forums bemühen sich, Beiträge mit fragwürdigem Inhalt so schnell wie möglich zu bearbeiten oder ganz zu löschen, aber es ist nicht möglich, jede einzelne Nachricht zu überprüfen. Du bestätigst mit Absenden dieser Einverständniserklärung, dass du akzeptierst, dass jeder Beitrag in diesem Forum die Meinung des Urhebers wiedergibt und dass die Administratoren, Moderatoren und Betreiber dieses Forums nur für ihre eigenen Beiträge verantwortlich sind.<br /><br />Du verpflichtest dich, keine beleidigenden, obszönen, vulgären, verleumdenden, gewaltverherrlichenden oder aus anderen Gründen strafbaren Inhalte in diesem Forum zu veröffentlichen. Verstöße gegen diese Regel führen zu sofortiger und permanenter Sperrung, wir behalten uns vor, Verbindungsdaten u. ä. an die strafverfolgenden Behörden weiterzugeben. Du räumst den Betreibern, Administratoren und Moderatoren dieses Forums das Recht ein, Beiträge nach eigenem Ermessen zu entfernen, zu bearbeiten, zu verschieben oder zu sperren. Du stimmst zu, dass die im Rahmen der Registrierung erhobenen Daten in einer Datenbank gespeichert werden.<br /><br />Dieses System verwendet Cookies, um Informationen auf deinem Computer zu speichern. Diese Cookies enthalten keine der oben angegebenen Informationen, sondern dienen ausschließlich deinem Bedienungskomfort dieser Seite. Deine E-Mail-Adresse wird nur zur Bestätigung der Registrierung und ggf. zum Versand eines neuen Passwortes verwendet.<br /><br />Sei versichert, dass deine persönlichen Daten nach den Bestimmunges des Landes des Website-Eigentümer behandelt werden.<br /><br />Durch das Abschließen der Registrierung stimmst du diesen Nutzungsbedingungen zu.',
 
 	'Agreement' => 'Einverständniserklärung',
-	'Agree_under_13' => 'Ich bin mit den Bedingungen dieses Forums einverstanden und <b>unter</b> 12 Jahre alt.',
-	'Agree_over_13' => 'Ich bin mit den Bedingungen dieses Forums einverstanden.',
+	'Agree_under_13' => 'Ich bin mit den Bedingungen einverstanden und <b>unter</b> 12 Jahre alt.',
+	'Agree_over_13' => 'Ich bin mit den Bedingungen einverstanden.',
 	'Agree_not' => 'Ich bin mit den Bedingungen nicht einverstanden.',
 	'Agree_checkbox' => 'Ich stimme diesen Bedingungen ausdrücklich zu.',
-	'Agree_checkbox_Error' => 'Um dich registrieren zu können mußt du die Checkbox (unten auf dieser Seite) aktivieren!',
+	'Agree_checkbox_Error' => 'Um dich registrieren zu können musst du die Checkbox (unten auf dieser Seite) aktivieren!',
 
 	'Wrong_activation' => 'Der Aktivierungsschlüssel aus dem Link stimmt nicht mit dem in der Datenbank überein. Bitte überprüfe die URL, und versuche es erneut.',
 	'Send_password' => 'Schickt mir ein neues Passwort.',
@@ -1519,7 +1519,7 @@ $lang = array_merge($lang, array(
 	'Always_set_bm' => 'Setze Lesezeichen automatisch beim Schreiben einen Beitrages',
 	'Found_bookmark' => 'Du hast %d Lesezeichen gesetzt.', // eg. Search found 1 match
 	'Found_bookmarks' => 'Du hast %d Lesezeichen gesetzt.', // eg. Search found 24 matches
-	'More_bookmarks' => 'Mehr Lesezeichen...', // For mozilla navigation bar
+	'More_bookmarks' => 'Mehr Lesezeichen&hellip;', // For mozilla navigation bar
 
 //RSS Reader Help
 	'RSS' => 'RSS',
@@ -1647,10 +1647,10 @@ $lang = array_merge($lang, array(
 	'SORT_LASTLOGON' => 'Letzter Besuch',
 	'SORT_BIRTHDAY' => 'Geburtstag',
 	'SORT_ONLINE' => 'Online',
-	'ASCENDING' => 'Ascending',
-	'DESCENDING' => 'Descending',
+	'ASCENDING' => 'Aufsteigend',
+	'DESCENDING' => 'Absteigend',
 	'LESS_THAN' => 'Weniger als',
-	'EQUAL_TO' => 'Equal to',
+	'EQUAL_TO' => 'Gleich',
 	'MORE_THAN' => 'Mehr als',
 	'BEFORE' => 'Before',
 	'AFTER' => 'After',
@@ -1828,7 +1828,7 @@ $lang = array_merge($lang, array(
 	'Ajax_Archive' => 'Archiv',
 	'Shoutbox_flooderror' => 'Du kannst nicht so schnell hintereinander Shouts senden. Bitte versuche es in einem Moment noch einmal.',
 	'Shoutbox_no_auth' => 'Sorry, nur registrierte Benutzer können die Shoutbox benutzen',
-	'Shoutbox_loading' => 'Lade Shoutbox...',
+	'Shoutbox_loading' => 'Lade Shoutbox&hellip;',
 // Errors
 	'Shoutbox_unable' => 'Sorry, die Aktion konnte nicht ausgeführt werden. Versuch es bitte noch einmal.',
 	'Shoutbox_empty' => 'Keine Mitteilungen in der Datenbank',
@@ -1956,7 +1956,7 @@ $lang = array_merge($lang, array(
 /* lang_.php - BEGIN */
 /* lang_.php - END */
 
-	'Uploading' => 'Wird hochgeladen...',
+	'Uploading' => 'Wird hochgeladen&hellip;',
 	'Upload_Image_Local' => 'Bild hochladen',
 	'Uploaded_Images_Local' => 'Hochgeladene Bilder',
 	'Upload_Image_Local_Explain' => 'Wähle das Bild aus, das du hochladen möchtest.',
@@ -1986,7 +1986,7 @@ $lang = array_merge($lang, array(
 	'AJAX_search_results' => 'Eine Schnellsuche hat %s Themen mit den Schlüsselwörtern aus deinem Thementitel gefunden. Klickt hier, um diese Themen anzusehen.',
 	'AJAX_search_result' => 'Eine Schnellsuche hat ein Thema mit den Schlüsselwörtern aus deinem Thementitel gefunden. Klickt hier, um dieses Thema anzusehen.',
 	'More_matches_username' => 'Mehr als ein Benutzer passt zu deiner Anfrage. Bitte wähle einen aus der obigen Box aus.',
-	'No_username' => 'Du mußt einen Benutzernamen eingeben.',
+	'No_username' => 'Du musst einen Benutzernamen eingeben.',
 	'AJAX_quick_search_results' => 'Eine Schnellsuche hat %s Themen mit diesen Schlüsselwörtern gefunden.<br />Rechts kannst du die ersten Ergebnisse sehen.<br />Klicke auf SUCHEN, um die komplette Ergebnisliste zu erhalten.',
 	'AJAX_quick_search_result' => 'Eine Schnellsuche hat ein Thema mit diesen Schlüsselwörtern gefunden.<br />Rechts kannst du das Ergebnis sehen.',
 
@@ -1995,7 +1995,7 @@ $lang = array_merge($lang, array(
 	'Feature_Disabled' => 'Diese Funktion wurde deaktiviert.',
 
 // Resend Activation - BEGIN
-	'Resend_activation_email' => 'Erneutes Senden der Aktivierungs-E-Mail',
+	'Resend_activation_email' => 'Sende Aktivierungs-E-Mail erneut!',
 	'Invalid_activation' => 'Benutzer-Konto Aktivierung kann nur von einem Administrator durchgeführt werden.',
 	'No_actkey' => 'Es existiert kein Aktivierung-Schlüssel für dein Konto. Bitte kontaktiere den Administrator für mehr Informationen.',
 	'Send_actmail_flood_error' => 'Du kannst nicht so schnell eine erneute Anfrage nach deiner letzten senden! Bitte versuche es später noch einmal.',
@@ -2159,7 +2159,7 @@ $lang = array_merge($lang, array(
 	'SHOW_POSTS_FROM' => 'Zeige Beiträge von',
 	'SHOW_POSTS_TO' => 'an',
 
-	'SEE_MORE_DETAILS' => 'Mehr Details sehen...',
+	'SEE_MORE_DETAILS' => 'Mehr Details sehen&hellip;',
 	'UNKNOWN' => 'Unbekannt',
 	'MASS_PM' => 'Massen-PN',
 	'TEXT_FORMAT' => 'Format',
@@ -2170,8 +2170,8 @@ $lang = array_merge($lang, array(
 	'GSEARCH_ENGINE' => 'Google-Suchmaschine benutzen',
 	'SEARCH_WHAT' => 'Was suchen',
 	'SEARCH_WHERE' => 'Wo suchen',
-	'SEARCH_THIS_FORUM' => 'Dieses Forum durchsuchen...',
-	'SEARCH_THIS_TOPIC' => 'Dieses Thema durchsuchen...',
+	'SEARCH_THIS_FORUM' => 'Dieses Forum durchsuchen&hellip;',
+	'SEARCH_THIS_TOPIC' => 'Dieses Thema durchsuchen&hellip;',
 	'VF_ALL_TOPICS' => 'Alle Themen',
 
 	'WHITE_LIST_MESSAGE' => 'Diese Seite benötigt eine Benutzerkonto Freischaltung via Email. Bitte überprüfe das diese Domain auf der White-Liste (erlaubte Domains) deines Anti-Spam-Systems steht, andernfalls wirst du die Aktivierungsmitteilung nicht erhalten können.',
@@ -2229,7 +2229,7 @@ $lang = array_merge($lang, array(
 	'Reg_Head_Time' => 'Datum:',
 	'Reg_for' => 'Anmeldung läuft für',
 	'Reg_for_explain' => '[ Gib 0 ein, oder freilassen für eine endlose Registrierung ]',
-	'Reg_no_options_specified' => 'Du mußt eine Option auswählen, für die du dich registrieren möchtest.',
+	'Reg_no_options_specified' => 'Du musst eine Option auswählen, für die du dich registrieren möchtest.',
 	'Reg_event_date' => '<b>Event Datum: </b>',
 	// Event Registration - END
 
@@ -2253,7 +2253,7 @@ $lang = array_merge($lang, array(
 	'TAG_TEXT' => 'Tag',
 	'TAGS_TEXT' => 'Tags',
 	'TAG_RESULTS' => 'Ausgewählter Tag: <b>%s</b>',
-	'TAGS_SEARCH' => 'Suche einen Tag...',
+	'TAGS_SEARCH' => 'Suche einen Tag&hellip;',
 	'TAGS_SEARCH_NO_RESULTS' => 'Keinen Tag gefunden!',
 	'TAGS_NO_TAGS' => 'Kein Tag bisher festgelegt',
 	'TAGS_NO_TAG' => 'Vorgegebener Tag ist nicht vorhanden',
@@ -2293,7 +2293,7 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_ATTEMPTS_EXCEEDED' => 'Die maximale Anzahl von %s Login-Versuchen ist erreicht. Du kannst dich deshalb in den nächsten %s Minuten nicht einloggen.',
 	'LOGIN_CONFIRM_EXPLAIN' => 'Um einen Brute-Force-Angriff auf Benutzerkonten zu verhindern, müsst du nach einer bestimmten Zahl von fehlerhaften Anmeldungen einen Bestätigungscode angeben. Der Code wird im unten stehenden Bild angezeigt. Wenn du nur über ein eingeschränktes Sehvermögen verfügen oder aus einem anderen Grund den Code nicht lesen kannst, kontaktiere bitte den %sAdministrator%s.',
-	'LOGIN_ERROR_ATTEMPTS' => 'Du hast die zuöässige Anzahl von Login-Versuchen überschritten. Deshalb mußt du nun zusätzlich zum Benutzernamen und Passwort, auch den Bestätigungs-Code von dem Bild mit angeben.',
+	'LOGIN_ERROR_ATTEMPTS' => 'Du hast die zuöässige Anzahl von Login-Versuchen überschritten. Deshalb musst du nun zusätzlich zum Benutzernamen und Passwort, auch den Bestätigungs-Code von dem Bild mit angeben.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE' => 'Du konntest von Apache nicht authentifiziert werden.',
 	'LOGIN_ERROR_PASSWORD' => 'Du hast ein falsche Passwort angegeben. Bitte überprüfe dein Passwort und versuche es erneut. Wenn du weiterhin Probleme haben solltest, kontaktiere den %sAdministrator%s.',
 	'LOGIN_ERROR_PASSWORD_CONVERT' => 'Es war leider nicht möglich dein Passwort (beim Update der Website) zu konvertieren. Bitte %sfordere ein neues Passwort%s an. Wenn du weiterhin Probleme haben solltest, kontaktiere den %sAdministrator%s.',
@@ -2317,7 +2317,7 @@ $lang = array_merge($lang, array(
 	'MAX_OPTIONS_SELECT' => 'Du kannst bis zu <strong>%d</strong> Optionen auswählen.',
 	'MAX_OPTION_SELECT' => 'Du kannst nur <strong>1</strong> Option auswählen.',
 	'NO_POLLS' => 'Keine Umfragen',
-	'NO_VOTE_OPTION' => 'Du mußt mindestens eine Option auswählen.',
+	'NO_VOTE_OPTION' => 'Du musst mindestens eine Option auswählen.',
 	'NO_VOTES' => 'Keine Abstimmungen',
 	'POLL_ENDED_AT' => 'Umfrage endet am %s',
 	'POLL_MAX_OPTIONS' => 'Max Optionen',
@@ -2405,7 +2405,7 @@ $lang = array_merge($lang, array(
 	'NO_TOPIC' => 'Das Thema oder der Beitrag existiert nicht.',
 	'NO_USER' => 'Dieser Benutzer existiert nicht.',
 
-	'AJAX_SEARCH' => 'Suche...',
+	'AJAX_SEARCH' => 'Suche&hellip;',
 
 	'FLICKR' => 'Flickr',
 	'GOOGLEPLUS' => 'Google Plus',

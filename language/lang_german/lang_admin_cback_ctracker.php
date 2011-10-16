@@ -161,7 +161,7 @@ $lang = array_merge($lang, array(
 	'ctracker_credits_credits_3' => 'Icons',
 	'ctracker_credits_credits_4' => 'Offizielle Downloadseite',
 	'ctracker_credits_moddownload' => 'CrackerTracker MOD Download',
-	'ctracker_credits_thanks' => 'Dank an...',
+	'ctracker_credits_thanks' => 'Dank an&hellip;',
 	'ctracker_credits_thanks_text' => 'An dieser Stelle geht ein Dankeschön an einige Personen die mir bei der MOD Entwicklung mit Ideen, Tests und mehr zur Seite standen.',
 	'ctracker_credits_thanks_to' => '<b>Featureideen, Sicherheitstests und Kontrolllesen</b><br />Tekin Birdüzen<br /><i>(<a href="http://www.cybercosmonaut.de" target="_blank">cYbercOsmOnauT</a>)</i><br /><br /><br /><br /><b>Featurevorschläge</b><br />Bernhard Jaud<br /><i>(GenuineParts)</i><br /><br /><br /><br /><b>Übersetzer</b><br />mc-dragon<br /><i>(Englisch)</i><br /><br /><br /><br /><b>Korrektur (Englisch)</b><br />George<br />Sommerset<br /><i>(<a href="http://www.englisch-hilfen.de" target="_blank">www.englisch-hilfen.de</a>)</i><br /><br /><br /><br /><b>Korrektur (Deutsch)</b><br />Johnny (diegoriv)<br /><i>(<a href="http://alpinum.at" target="_blank">Alpinum.at</a>)</i><br /><br /><br /><br /><b>Beta Tester</b><br />Danke an alle Teilnehmer des Beta-Tests,<br />an die CBACK Premium User und natürlich auch an<br />einige Kollegen aus der "Modder-Szene", welche bei Beta Tests und Korrekturlesen geholfen haben.</i>',
 	'ctracker_credits_info' => 'Noch mehr Sicherheit?',

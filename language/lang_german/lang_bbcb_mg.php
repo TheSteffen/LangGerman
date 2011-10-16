@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'SC_default_smilie' => 'Standard Smiley',
 	'SC_create_smilie' => 'Erstellen',
 	'SC_stop_creating' => 'Abbrechen',
-	'SC_error' => 'Hier ist dein Schild - du hast den Text vergessen...',
+	'SC_error' => 'Hier ist dein Schild - du hast den Text vergessen&hellip;',
 	'SC_another_shield' => 'Möchtest du noch einen Smiley erstellen?',
 	'SC_notext_error' => 'Du kannst keine Smilies ohne Text erstellen!',
 

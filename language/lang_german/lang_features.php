@@ -121,8 +121,8 @@ $lang = array_merge($lang, array(
 
 	'item_coppa' => 'COPPA-Registrierung',
 	'item_l_r_a' => 'Begrenzung für Registrierungsversuche',
-	'item_username_lenght' => 'Bestimme min / max Benutzernamenlänge',
-	'item_pass_lenght' => 'Bestimme min / max Passwortlänge',
+	'item_username_length' => 'Bestimme min / max Benutzernamenlänge',
+	'item_pass_length' => 'Bestimme min / max Passwortlänge',
 	'item_l_u_c' => 'Begrenze Benutzernamenzeichen',
 	'item_s_p_c_r' => 'Bestimme die Passwortkomplexität',
 	'item_f_p_c' => 'Erzwingung von Passwort-Wechsel',

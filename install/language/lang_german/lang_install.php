@@ -219,7 +219,7 @@ $lang = array_merge($lang, array(
 
 	'FixForums' => 'Foren konvertieren',
 	'FixForumsExplain' => 'Diese Funktion wird Foren und Kategorien in das neue Format konvertieren.',
-	'FixingForumsInProgress' => 'Konvertierung in Arbeit...',
+	'FixingForumsInProgress' => 'Konvertierung in Arbeit&hellip;',
 	'FixingForumsComplete' => 'Arbeit vollständig!',
 
 	'FixPosts' => 'Beiträge reparieren',

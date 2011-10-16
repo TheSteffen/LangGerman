@@ -216,7 +216,7 @@ $lang = array_merge($lang, array(
 	'No_new_file' => 'Keine neue Datei',
 	'None' => 'Keine',
 	'No_file' => 'Keine Dateien',
-	'View_latest_file' => 'Zeige neuste Datei',
+	'View_latest_file' => 'Zeige neueste Datei',
 
 // Toplists mx blocks
 	'Recent_Public_Files' => 'Neueste Downloads',
@@ -238,7 +238,7 @@ $lang = array_merge($lang, array(
 
 $lang['Stats_text'] = "Es sind {total_files} Dateien in {total_categories} Kategorien.<br />";
 $lang['Stats_text'] .= "Es gab insgesamt {total_downloads} Downloads.<br /><br />";
-$lang['Stats_text'] .= "Die neuste Datei ist <a href={u_newest_file}>{newest_file}</a>.<br />";
+$lang['Stats_text'] .= "Die neueste Datei ist <a href={u_newest_file}>{newest_file}</a>.<br />";
 $lang['Stats_text'] .= "Die älteste Datei ist <a href={u_oldest_file}>{oldest_file}</a>.<br /><br />";
 $lang['Stats_text'] .= "Die durchschnittliche Datei-Bewertung liegt bei {average}/10.<br />";
 $lang['Stats_text'] .= "Die Datei mit der besten Bewertung ist <a href={u_popular}>{popular}</a>, mit einer Bewertung von {most}/10.<br />";

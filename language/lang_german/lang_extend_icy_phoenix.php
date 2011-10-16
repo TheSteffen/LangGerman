@@ -97,10 +97,10 @@ if ($lang_extend_admin)
 		'IP_show_alpha_bar_explain' => 'Diese Option zeigt in der Forum-Ansicht (viewforum.php) eine Leiste, um die Themen alphabetisch sortieren lassen zu können.',
 
 		'IP_show_rss_forum_icon' => 'Forum Index Icons',
-		'IP_show_rss_forum_icon_explain' => 'Diese Option zeigt Icons rechts von jedem Forumtitel an (im Forum Index): RSS, New Topic...',
+		'IP_show_rss_forum_icon_explain' => 'Diese Option zeigt Icons rechts von jedem Forumtitel an (im Forum Index): RSS, Neues Thema&hellip;',
 
 		'IP_allow_mods_view_self' => 'Erlaube allen Moderatoren die SELF AUTH Themen anzuzeigen',
-		'IP_allow_mods_view_self_explain' => 'Wenn ein Forum auf SELF AUTH Zugriff gesetzt wurde, können nur Administratoren und Moderatoren die entsprechenden Foren betreten. However there are many features that may show contents of these kind of posts even if not authed: Recent Topics, Search, Recent Messages Blocks, Random Topics Blocks, etc. To prevent this, an extra feature has been coded which doesn\'t allow not authed people to access these topics via secondary ways. Anyway you can allow ALL moderators (not only admins) to view these messages through these secondary ways. If you set this to YES then ALL moderators will be allowed to see the content of these messages through: Recent, Search, Topics related blocks... Unfortunately if you switch this OFF then neither AUTHED moderators may access SELF AUTHED topics through secondary ways. The feature has been coded in this way to save extra SQL charge. If you don\'t use SELF AUTHED forums, then you don\'t need this function as well.',
+		'IP_allow_mods_view_self_explain' => 'Wenn ein Forum auf SELF AUTH Zugriff gesetzt wurde, können nur Administratoren und Moderatoren die entsprechenden Foren betreten. However there are many features that may show contents of these kind of posts even if not authed: Recent Topics, Search, Recent Messages Blocks, Random Topics Blocks, etc. To prevent this, an extra feature has been coded which doesn\'t allow not authed people to access these topics via secondary ways. Anyway you can allow ALL moderators (not only admins) to view these messages through these secondary ways. If you set this to YES then ALL moderators will be allowed to see the content of these messages through: Recent, Search, Topics related blocks&hellip; Unfortunately if you switch this OFF then neither AUTHED moderators may access SELF AUTHED topics through secondary ways. The feature has been coded in this way to save extra SQL charge. If you don\'t use SELF AUTHED forums, then you don\'t need this function as well.',
 
 		'IP_xmas_fx' => 'Weihnachts Schnee',
 		'IP_xmas_fx_explain' => 'Diese Option aktiviert den Schneefall Effekt.',
@@ -284,7 +284,7 @@ if ($lang_extend_admin)
 		'IP_edit_notes_n' => 'maximale Bearbeitungs Anmerkungen',
 
 		'IP_always_show_edit_by' => 'Zeige in Einträgen editiert von',
-		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Einträgen  &quot;Zuletzt editiert von...&quot; in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
+		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Einträgen  &quot;Zuletzt editiert von&hellip;&quot; in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
 
 		'IP_show_social_bookmarks' => 'Öffentliche Lesezeichen',
 		'IP_show_social_bookmarks_explain' => 'Zeige Öffentliche Lesezeichen bei den Themen',
@@ -341,7 +341,7 @@ if ($lang_extend_admin)
 		'IP_show_pic_size_on_thumb' => 'Zeige die Bildgröße in den Thumbnails',
 
 		'IP_thumbnail_highslide' => 'Benutze HighSlide JavaScript für die Bildanzeige wenn Thumbnails aktiviert sind',
-		'IP_thumbnail_highslide_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.highslide.com/" target="_blank">HighSlide JS...</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!',
+		'IP_thumbnail_highslide_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.highslide.com/" target="_blank">HighSlide JS&hellip;</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!',
 
 		'IP_thumbnail_cache' => 'Thumbnails Cache',
 

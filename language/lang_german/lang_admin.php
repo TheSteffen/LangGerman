@@ -707,7 +707,7 @@ $lang = array_merge($lang, array(
 	'Version_up_to_date_ip' => 'Dein Forum ist auf dem neusten Stand; es sind keine Updates für deine Icy Phoenix Version verfügbar.',
 	'Version_not_up_to_date' => 'Dein Forum ist <b>nicht</b> auf dem neusten Stand. Es sind Updates für deine phpBB-Version verfügbar, bitte besuche <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a>, um die aktuellste Version zu erhalten.',
 	'Version_not_up_to_date_ip' => 'Es sind Updates für deine Icy Phoenix Version verfügbar, bitte besuche <a href="http://www.icyphoenix.com/" target="_new">Icy Phoenix</a>, um die aktuellste Version zu erhalten.',
-	'Latest_version_info' => 'Die neuste verfügbare Version ist <b>phpBB %s</b>.',
+	'Latest_version_info' => 'Die neueste verfügbare Version ist <b>phpBB %s</b>.',
 	'Current_version_info' => 'Du verwendest <b>phpBB %s</b>.',
 	'Connect_socket_error' => 'Die Verbindung zum phpBB-Server konnte nicht aufgebaut werden. Es trat folgender Fehler auf:<br />%s',
 	'Connect_socket_error_ip' => 'Es konnte keine Verbindung zum Icy Phoenix Server hergestellt werden',
@@ -842,7 +842,7 @@ $lang = array_merge($lang, array(
 
 // Start add - Bin Mod
 	'Bin_forum' => 'Papierkorb-Forum',
-	'Bin_forum_explain' => 'Füge die Forum ID des Forums ein, in welches die Papierkorbbeiträge verschoben werden sollen. Trage 0 ein, um die Funktion zu deaktivieren. Du solltest die Forumsberechtigungen bearbeiten und Benutzern das Lesen/Schreiben/Antworten nicht gestatten... oder den Zugang zum Forum ganz verwehren. Nur Moderatoren oder Administratoren sollten derartige Rechte in diesem Forum besitzen.',
+	'Bin_forum_explain' => 'Füge die Forum ID des Forums ein, in welches die Papierkorbbeiträge verschoben werden sollen. Trage 0 ein, um die Funktion zu deaktivieren. Du solltest die Forumsberechtigungen bearbeiten und Benutzern das Lesen/Schreiben/Antworten nicht gestatten&hellip; oder den Zugang zum Forum ganz verwehren. Nur Moderatoren oder Administratoren sollten derartige Rechte in diesem Forum besitzen.',
 // End add - Bin Mod
 
 // Begin Quick Title Edition Mod 1.0.0 by Xavier Olive.
@@ -1080,7 +1080,7 @@ $lang = array_merge($lang, array(
 	'Forum_rules' => 'Forenregeln',
 	'Rules_display_title' => 'Zeige Titel in der Forenregeln-BOX an?',
 	'Rules_custom_title' => 'Eigener Titel',
-	'Rules_appear_in' => 'Diese Regeln werden angezeigt beim...',
+	'Rules_appear_in' => 'Diese Regeln werden angezeigt beim&hellip;',
 	'Rules_in_viewforum' => 'anzeigen des Forums',
 	'Rules_in_viewtopic' => 'anzeigen von Themen im Forum',
 	'Rules_in_posting' => 'schreiben/antworten in diesem Forum',
@@ -1376,8 +1376,8 @@ $lang = array_merge($lang, array(
 	'megamail_batchstart' => 'Bearbeitet',
 	'megamail_batchsize' => 'Nachrichten pro Batch',
 	'megamail_batchwait' => 'Pause',
-	'megamail_created_message' => 'Die Massen-Mail wurde in der Datenbank gespeichert.<br /><br /> Um das Senden zu starten, klicke %shier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
-	'megamail_send_message' => 'Das aktuelle Batch (%s - %s) wurde gesendet.<br /><br />Um mit dem Senden fortzufahren, klicke %shier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
+	'megamail_created_message' => 'Die Massen-Mail wurde in der Datenbank gespeichert.<br /><br /> Um das Senden zu starten, klicke %shier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst&hellip;',
+	'megamail_send_message' => 'Das aktuelle Batch (%s - %s) wurde gesendet.<br /><br />Um mit dem Senden fortzufahren, klicke %shier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst&hellip;',
 	'megamail_status' => 'Status',
 	'megamail_proceed' => '%sJetzt fortfahren%s',
 	'megamail_done' => 'FERTIG',
@@ -1610,8 +1610,8 @@ $lang = array_merge($lang, array(
 	'Normal_Desc' => 'Alle privaten Nachrichten des Forums können hier verwaltet werden. Sie können die Nachrichten der Benutzer lesen, löschen und archivieren. Im letzten Fall wird die Nachricht des Benutzers ins Archiv des Administrations-Bereichs verschoben.<br /><br /><b>ACHTUNG:</b> Es wird nicht angezeigt, ob die Nachricht Anlagen wie z.B. Bilder enthält!',
 	'Remove_Old' => 'Nachrichten ohne Besitzer:</a> <span class="gensmall">Nachrichten von gelöschten Benutzern können manchmal in der Datenbank zurückbleiben, welche durch diese Option gelöscht werden.</span>',
 	'Remove_Sent' => 'Kopien der gesendeten Nachrichten:</a> <span class="gensmall">Nachrichten in diesem Ordner sind in der Regel überflüssig. Es sei denn, der Besitzer möchte noch einmal nachvollziehen, was er geschrieben hat. In diesem Fall kann er seine Nachrichten aber auch archivieren und somit diese Löschung umgehen, wenn er möchte.</span>',
-	'Removed_Old' => 'Alle besitzerlosen Nachrichten werden gelöscht...<br />',
-	'Removed_Sent' => 'Alle Kopien der gesendeten Nachrichten werden gelöscht...<br />',
+	'Removed_Old' => 'Alle besitzerlosen Nachrichten werden gelöscht&hellip;<br />',
+	'Removed_Sent' => 'Alle Kopien der gesendeten Nachrichten werden gelöscht&hellip;<br />',
 	'Utilities' => 'Massen Löschungs Programme',
 	'Nivisec_Com' => 'Nivisec.com',
 
@@ -1822,7 +1822,7 @@ $lang = array_merge($lang, array(
 
 	'TABLE_SELECT' => 'Tabellen-Auswahl',
 
-	'BACKUP_IN_PROGRESS' => 'Backup wird erstellt...',
+	'BACKUP_IN_PROGRESS' => 'Backup wird erstellt&hellip;',
 	'BACKUP_IN_PROGRESS_TABLE' => 'Sichere Tabelle: <b>%s</b>',
 	'BACKUP_IN_PROGRESS_REDIRECT' => 'Du wirst automatisch in ein paar Sekunden zum nächsten Schritt weitergeleitet',
 	'BACKUP_IN_PROGRESS_REDIRECT_CLICK' => 'Wenn du nicht innerhalb von ein paar Sekunden weitergeleitet wirst, kannst du %shier%s klicken',
@@ -2050,7 +2050,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_SETTINGS' => 'BBCode, HTML und Smilies Einstellungen',
 	'POSTING_SETTINGS' => 'Beitrags-Einstellungen',
 
-	'POLL_INFINITE' => 'Unbegrenzt...',
+	'POLL_INFINITE' => 'Unbegrenzt&hellip;',
 	'POLL_ONGOING' => ' (aktuell)',
 	'POLL_COMPLETED' => ' (beeindet)',
 
@@ -2082,7 +2082,7 @@ $lang = array_merge($lang, array(
 	'MG_SW_Empty_Precompiled_Posts_Explain' => 'Diese Funktion leert alle vorkompilierten Beiträge.',
 	'MG_SW_Empty_Precompiled_Posts_Success' => 'Vorkompilierte Beiträge korrekt geleert.',
 	'MG_SW_Empty_Precompiled_Posts_Fail' => 'Fehler beim Leeren der vorkompilierten Beiträge.',
-	'MG_SW_Empty_Precompiled_Posts_InProgress' => 'Leeren der Cache Ordner in Bearbeitung...',
+	'MG_SW_Empty_Precompiled_Posts_InProgress' => 'Leeren der Cache Ordner in Bearbeitung&hellip;',
 	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect' => 'Du wirst automatisch in 3 Sekunden zum nächsten Schritt weitergeleitet',
 	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect_Click' => 'Wenn du nicht automatisch in 3 Sekunden weitergeleitet wirst, kannst du %shier%s klicken',
 	'MG_SW_Empty_Precompiled_Posts_Redirect_Click' => 'Klicke %shier%s, um zur Cache Verwaltung zurückzukehren.',
