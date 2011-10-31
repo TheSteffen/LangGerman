@@ -1301,10 +1301,6 @@ $lang = array_merge($lang, array(
 	'Confirm_delete_edit_note' => 'Bist du sicher, dass du diese Bearbeitungsnotiz löschen möchtest?',
 	'Edit_note_deleted' => 'Die Notiz wurde erfolgreich gelöscht.',
 // End Edit Notes MOD
-//Referrers Mod
-	'Referrers' => 'http Referer',
-	'Viewing_Referrers' => 'Referer anzeigen',
-//Referrers Mod End
 
 	'Recent_topics' => 'Neueste Themen', // Recent Topics
 	'Recent_today' => 'Heute',
@@ -1730,7 +1726,7 @@ $lang = array_merge($lang, array(
 	'LINK_DIGESTS' => 'Digests',
 
 	'LINK_CREDITS' => 'Credits',
-	'LINK_REFERRERS' => 'HTTP Referrers',
+	'LINK_REFERERS' => 'HTTP Referer',
 	'LINK_VIEWONLINE' => 'Benutzer online',
 	'LINK_STATISTICS' => 'Statistik',
 	'LINK_DELETE_COOKIES' => 'Cookies löschen',
@@ -1911,20 +1907,24 @@ $lang = array_merge($lang, array(
 	'Top_Visiting_Users' => 'Benutzer die die meiste Zeit hier verbracht haben',
 /* lang_site_hist.php - END */
 
-/* lang_referrers.php - BEGIN */
-	'Referrers_Title' => 'Http Referer Konfiguration',
-	'Referrers_Cleared' => 'Referer gelöscht',
-	'Referrers_Clear' => 'Alle löschen',
-	'Click_Return_Referrers' => 'Klicke %shier%s, um zu den Referer zurückzukehren.',
-	'Referrers' => 'Http Referer',
-	'Referrer_host' => 'Verweisender Host',
-	'Referrer_url' => 'Verweisende URL',
-	'Referrer_ip' => 'Verweisende IP',
-	'Referrer_hits' => 'Treffer',
-	'Referrer_first' => 'Erster Besuch',
-	'Referrer_last' => 'Letzter Besuch',
-	'Viewing_Referrers' => 'Referer anzeigen',
-/* lang_referrers.php - END */
+/* lang_referers.php - BEGIN */
+	'REFERERS' => 'Http Referer',
+	'VIEWING_REFERERS' => 'Referer anzeigen',
+	'REFERERS_TITLE' => 'Http Referers Management',
+	'REFERERS_CLEARED' => 'Referer gelöscht',
+	'REFERERS_CLEAR' => 'Alle löschen',
+	'CLICK_RETURN_REFERERS' => 'Klicke %shier%s, um zu den Referer zurückzukehren.',
+	'REFERER_HOST' => 'Host',
+	'REFERER_URL' => 'URL',
+	'REFERER_T_URL' => 'Besuchte URL',
+	'REFERER_IP' => 'IP',
+	'REFERER_HITS' => 'Treffer',
+	'REFERER_FIRST' => 'Erster Besuch',
+	'REFERER_LAST' => 'Letzter Besuch',
+	'REFERER_DELETE' => 'Löschen',
+	'REFERER_KILL' => 'Remove from DB (use * for wildcard)',
+	'REFERER_GROUP_BY' => 'Gruppieren nach',
+/* lang_referers.php - END */
 
 /* lang_prune_users.php - BEGIN */
 // add to prune inactive
@@ -2432,6 +2432,8 @@ $lang = array_merge($lang, array(
 	'MENU_EMPTY_LINK' => 'Leerer Link',
 
 	'IP_BLACKLISTED' => 'Deine IP-Adresse %s wurde blockiert, da sie auf der Blacklist steht. Weitere Einzelheiten gibt es hier: <a href="%s">%s</a>.',
+
+	'PRINTABLE_VERSION' => 'Druckbare Version',
 
 	)
 );

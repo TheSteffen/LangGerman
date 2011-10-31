@@ -705,8 +705,8 @@ $lang = array_merge($lang, array(
 // Version Check
 	'Version_up_to_date' => 'Dein Forum ist auf dem neusten Stand; es sind keine Updates für deine phpBB-Version verfügbar.',
 	'Version_up_to_date_ip' => 'Dein Forum ist auf dem neusten Stand; es sind keine Updates für deine Icy Phoenix Version verfügbar.',
-	'Version_not_up_to_date' => 'Dein Forum ist <b>nicht</b> auf dem neusten Stand. Es sind Updates für deine phpBB-Version verfügbar, bitte besuche <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a>, um die aktuellste Version zu erhalten.',
-	'Version_not_up_to_date_ip' => 'Es sind Updates für deine Icy Phoenix Version verfügbar, bitte besuche <a href="http://www.icyphoenix.com/" target="_new">Icy Phoenix</a>, um die aktuellste Version zu erhalten.',
+	'Version_not_up_to_date' => 'Dein Forum ist <b>nicht</b> auf dem neuesten Stand. Es sind Updates für deine phpBB-Version verfügbar, bitte besuche <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a>, um die aktuellste Version zu erhalten.',
+	'Version_not_up_to_date_ip' => 'Es sind Updates für deine Icy Phoenix Version verfügbar, bitte besuche <a href="http://www.icyphoenix.de/" target="_new">Icy Phoenix</a>, um die aktuellste Version zu erhalten.',
 	'Latest_version_info' => 'Die neueste verfügbare Version ist <b>phpBB %s</b>.',
 	'Current_version_info' => 'Du verwendest <b>phpBB %s</b>.',
 	'Connect_socket_error' => 'Die Verbindung zum phpBB-Server konnte nicht aufgebaut werden. Es trat folgender Fehler auf:<br />%s',
@@ -1180,7 +1180,7 @@ $lang = array_merge($lang, array(
 	'auth_view_ranks' => 'Ränge',
 	'auth_view_statistics' => 'Statistiken',
 	'auth_view_recent' => 'Neueste Themen',
-	'auth_view_referrers' => 'Referrers',
+	'auth_view_referers' => 'Referers',
 	'auth_view_rules' => 'Regeln',
 	'auth_view_site_hist' => 'Seiten Historie',
 	'auth_view_shoutbox' => 'Shoutbox',
@@ -2283,11 +2283,11 @@ $lang['120_FAQ_Board'] = 'Seiten-FAQ'; // admin_faq_editor.php
 $lang['130_FAQ_Rules'] = 'Seiten-Regeln'; // admin_faq_editor.php
 
 // INFO
-$lang['2400_INFO'] = 'Info'; // admin_logs.php, admin_phpinfo.php, admin_gd_info.php, admin_referrers.php, admin_google_bot_detector.php
+$lang['2400_INFO'] = 'Info'; // admin_logs.php, admin_phpinfo.php, admin_gd_info.php, admin_referers.php, admin_google_bot_detector.php
 $lang['110_Actions_LOG'] = 'Aktionen Log'; // admin_logs.php
 $lang['120_PHP_INFO'] = 'PHP Info'; // admin_phpinfo.php
 $lang['130_GD_Info'] = 'GD Info'; // admin_gd_info.php
-$lang['140_HTTP_REF'] = 'HTTP Referrers'; // admin_referrers.php
+$lang['140_HTTP_REF'] = 'HTTP Referers'; // admin_referers.php
 $lang['150_Google_BOT'] = 'Google Bot Detektor'; // admin_google_bot_detector.php
 
 // STATS

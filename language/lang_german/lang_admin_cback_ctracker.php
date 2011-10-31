@@ -269,10 +269,10 @@ $lang = array_merge($lang, array(
 /*
 * Footer configuration
 */
-	'ctracker_footer_head' => 'Footerverwaltung',
+	'ctracker_footer_head' => 'Footer-Verwaltung',
 	'ctracker_footer_subhead' => 'Hier kannst du auswählen, welchen Footer CrackerTracker in deinem Forum anzeigen soll. Wir bitten darum, dass der Footer und damit der Hinweis zu www.cback.de intakt bleibt!',
 	'ctracker_select_footer' => 'Footer auswählen',
-	'ctracker_footer_saveit' => 'Footerlayout übernehmen',
+	'ctracker_footer_saveit' => 'Footer-Layout übernehmen',
 	'ctracker_footer_done' => 'Änderungen am Footer Layout wurden erfolgreich gespeichert!',
 
 /*

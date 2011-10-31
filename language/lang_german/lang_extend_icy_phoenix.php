@@ -170,8 +170,8 @@ if ($lang_extend_admin)
 		'IP_disable_topic_view' => '&quot;Thema angesehen von&quot; (komplett) deaktivieren',
 		'IP_disable_topic_view_explain' => 'Diese Option deaktiviert die &quot;Thema angesehen von&quot;-Funktion (dies reduziert SQL-Platz).',
 
-		'IP_disable_referrers' => 'Referer deaktivieren',
-		'IP_disable_referrers_explain' => 'Diese Option deaktiviert die Referer Funktion (dies reduziert SQL-Platz).',
+		'IP_disable_referers' => 'Referer deaktivieren',
+		'IP_disable_referers_explain' => 'Diese Option deaktiviert die Referer Funktion (dies reduziert SQL-Platz).',
 
 		'IP_disable_logins' => 'Deaktiviere Login Aufzeichnungen',
 		'IP_disable_logins_explain' => 'Bei Aktivierung dieser Option, werden die Logins der Benutzer nicht mehr aufgezeichnet',
