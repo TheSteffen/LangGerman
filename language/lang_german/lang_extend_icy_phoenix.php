@@ -189,7 +189,7 @@ if ($lang_extend_admin)
 
 		'IP_last_msgs_n' => 'Anzahl der letzten Nachrichten die angezeigt werden sollen.',
 
-		'IP_last_msgs_x' => 'auszuschließende Foren',
+		'IP_last_msgs_x' => 'Auszuschließende Foren',
 		'IP_last_msgs_x_explain' => 'Bitte, trage hier die IDs der Foren ein die in der Letzte Nachrichten Box ausgeschlossen werden sollen (Du kannst jede Foren ID mit Komma trennen).',
 
 		'IP_show_chat_online' => 'AJAX Chat Online :: Forum Index',
@@ -390,7 +390,7 @@ if ($lang_extend_admin)
 		'icon_explain' => 'Dieses Icon wird vor dem Forumsnamen angezeigt. Du kannst eine direkte URL angeben oder den $image[] Key Eintrag (siehe <i>dein_template</i>/<i>dein_template.cfg</i>).',
 
 // TAB - Calendar
-		'Lang_extend_topic_calendar' => 'Topic Kalender',
+		'Lang_extend_topic_calendar' => 'Themen Kalender',
 
 // TAB - SEO
 		'IP_url_rw' => 'URL Rewrite',
@@ -452,7 +452,7 @@ if ($lang_extend_admin)
 		'Similar_topics_explain' => 'Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
 
 		'IP_similar_topics' => 'Ähnliche Themen :: Ähnliche Themen aktivieren',
-		'IP_similar_topics_explain' => 'This is the global switch for Similar Topics. If you want to switch on this feature you will need also to enable single forums in Forums Management section.',
+		'IP_similar_topics_explain' => 'Dies ist der Hauptschalter für Ähnliche Themen. Wenn du diese Funktion nutzen möchtest, mußt du in dem jeweiligen Forum (Forum-Verwaltung) auch die Ähnliche Themen-Box aktivieren.',
 
 		'IP_similar_topics_desc' => 'Ähnliche Themen :: Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
 
@@ -539,7 +539,7 @@ if ($lang_extend_admin)
 
 // lang_extend_settings.php
 		'Lang_extend_settings' => 'Icy Phoenix Einstellungen',
-		'Configuration_extend' => 'Kalender &amp; Subforen',
+		'Configuration_extend' => 'Kalender &amp; Unterforen',
 		'Override_user_choices' => 'Benutzereinstellungen überschreiben',
 		)
 	);
@@ -561,13 +561,14 @@ $lang = array_merge($lang, array(
 
 	'Use_sub_forum' => 'Unterforen Anzeige (Komprimierung):',
 	'Index_packing_explain' => 'Gibt an, wie die Unterforen im Index angezeigt werden.',
+	'List' => 'Liste',
 	'Medium' => 'Mittel',
 	'Full' => 'Komprimiert',
 	'Split_categories' => 'Kategorien im Index aufteilen:',
 	'Use_last_topic_title' => 'Zeige die Titel der letzten Themen im Index:',
 	'Last_topic_title_length' => 'Titellänge des letzten Themas im Index:',
 	'Sub_level_links' => 'Unterforenlinks im Index:',
-	'Sub_level_links_explain' => 'Füge Links zu den Unterforen in der Forum oder Kategorie Beschreibung hinzu',
+	'Sub_level_links_explain' => 'Füge Links zu den Unterforen in der Forum oder Kategorie Beschreibung hinzu.',
 	'With_pics' => 'Mit Icons',
 	'Display_viewonline' => 'Wer ist Online Box einschalten:',
 	'Never' => 'Nie',

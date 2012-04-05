@@ -703,8 +703,8 @@ $lang = array_merge($lang, array(
 // Admin Userlist End
 
 // Version Check
-	'Version_up_to_date' => 'Dein Forum ist auf dem neusten Stand; es sind keine Updates für deine phpBB-Version verfügbar.',
-	'Version_up_to_date_ip' => 'Dein Forum ist auf dem neusten Stand; es sind keine Updates für deine Icy Phoenix Version verfügbar.',
+	'Version_up_to_date' => 'Dein Forum ist auf dem neuesten Stand. Es sind keine Updates für deine phpBB-Version verfügbar.',
+	'Version_up_to_date_ip' => 'Dein Forum ist auf dem neuesten Stand. Es sind keine Updates für deine Icy Phoenix Version verfügbar.',
 	'Version_not_up_to_date' => 'Dein Forum ist <b>nicht</b> auf dem neuesten Stand. Es sind Updates für deine phpBB-Version verfügbar, bitte besuche <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a>, um die aktuellste Version zu erhalten.',
 	'Version_not_up_to_date_ip' => 'Es sind Updates für deine Icy Phoenix Version verfügbar, bitte besuche <a href="http://www.icyphoenix.de/" target="_new">Icy Phoenix</a>, um die aktuellste Version zu erhalten.',
 	'Latest_version_info' => 'Die neueste verfügbare Version ist <b>phpBB %s</b>.',
@@ -2052,7 +2052,7 @@ $lang = array_merge($lang, array(
 
 	'POLL_INFINITE' => 'Unbegrenzt&hellip;',
 	'POLL_ONGOING' => ' (aktuell)',
-	'POLL_COMPLETED' => ' (beeindet)',
+	'POLL_COMPLETED' => ' (beendet)',
 
 	'FORUM_LIKES' => 'Like Posts',
 	'FORUM_LIKES_EXPLAIN' => 'Allow users to like single posts in a topic (you need to enable the global switch in Icy Phoenix Settings [SQL Charge] to be able to use this feature)',

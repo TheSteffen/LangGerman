@@ -883,8 +883,8 @@ $lang = array_merge($lang, array(
 	'Guest_user_online' => 'Es ist ein Gast online.',
 	'No_users_browsing' => 'Im Moment sind keine Benutzer im Forum.',
 
-	'ONLINE_EXPLAIN' => 'Diese Daten zeigen an, wer in den letzten 5 Minuten online war.',
-	'ONLINE_TODAY' => 'Diese Daten zeigen an, wer in den letzten 24 Stunden online war.',
+	'ONLINE_EXPLAIN' => 'Diese Daten zeigen, wer in den letzten 5 Minuten online war.',
+	'ONLINE_TODAY' => 'Diese Daten zeigen, wer in den letzten 24 Stunden online war.',
 
 	'Forum_Location' => 'Welche Seite',
 	'Last_updated' => 'Zuletzt aktualisiert',
@@ -1158,7 +1158,7 @@ $lang = array_merge($lang, array(
 	'aim_lofi' => 'AIM',
 	'yim_lofi' => 'YIM',
 	'msnm_lofi' => 'MSN',
-	'quick_lofi' => 'Schnellantwort',
+	'quick_lofi' => 'Schnell-Antwort',
 	'new_pm_lofi' => 'Sende eine PN',
 //End Lo-Fi Mod
 
@@ -1533,7 +1533,7 @@ $lang = array_merge($lang, array(
 	'Rss_news_help_rights' => 'Wir behalten uns das Recht vor, die Nutzung von Feeds jederzeit nach unserem Ermessen zu beenden. Unsere Foren-Feeds dürfen nicht weitervertrieben werden.',
 	'Rss_news_feeds' => 'RSS News Feeds',
 
-	'Quick_Reply' => 'Schnell Antwort',
+	'Quick_Reply' => 'Schnell-Antwort',
 	'Mod_CP_sticky2' => 'Wichtig',
 	'Mod_CP_announce2' => 'Ankündigung',
 	'Mod_CP_global2' => 'Global',
@@ -1823,10 +1823,11 @@ $lang = array_merge($lang, array(
 	'Ajax_Chat' => 'Chat',
 	'Ajax_Archive' => 'Archiv',
 	'Shoutbox_flooderror' => 'Du kannst nicht so schnell hintereinander Shouts senden. Bitte versuche es in einem Moment noch einmal.',
-	'Shoutbox_no_auth' => 'Sorry, nur registrierte Benutzer können die Shoutbox benutzen',
+	'Shoutbox_no_auth' => 'Entschuldigung, nur registrierte Benutzer können die Shoutbox benutzen',
 	'Shoutbox_loading' => 'Lade Shoutbox&hellip;',
 // Errors
-	'Shoutbox_unable' => 'Sorry, die Aktion konnte nicht ausgeführt werden. Versuch es bitte noch einmal.',
+	'Shoutbox_unable' => 'Entschuldigung, die Aktion konnte nicht ausgeführt werden. Versuch es bitte noch einmal.',
+	'Shoutbox_timeout' => 'Entschuldigung, der Srever antwortet nicht. Bitte versuche es noch einmal.',
 	'Shoutbox_empty' => 'Keine Mitteilungen in der Datenbank',
 	'Shoutbox_no_mode' => 'Kein gültiger Mode festgelegt',
 // Archive
@@ -2164,7 +2165,7 @@ $lang = array_merge($lang, array(
 	'MASS_PM' => 'Massen-PN',
 	'TEXT_FORMAT' => 'Format',
 	'SENDER' => 'Absender',
-	'PM_NOTIFICATION' => 'Hallo,<br /><br />Du hast eine neue private Nachricht bei &quot;{SITENAME}&quot; erhalten.<br /><br />Du kannst dir deine neue Nachricht anschauen, indem du auf nachstehenden Link klickst:<br /><br />{U_INBOX}<br /><br />',
+	'PM_NOTIFICATION' => 'Hallo,<br /><br />Du hast eine neue private Nachricht von &quot;{SITENAME}&quot; erhalten.<br /><br />Du kannst dir deine neue Nachricht anschauen, indem du auf den nachstehenden Link klickst:<br /><br />{U_INBOX}<br /><br />',
 
 	'GSEARCH' => 'Google Suche',
 	'GSEARCH_ENGINE' => 'Google-Suchmaschine benutzen',

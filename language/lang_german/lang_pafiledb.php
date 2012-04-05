@@ -30,7 +30,7 @@ $lang = array_merge($lang, array(
 	'Toplist' => 'Top-Liste',
 	'Select_list' => 'Wähle die Art der Liste aus, die angezeigt werden soll',
 	'Latest_downloads' => 'Die neusten Dateien',
-	'Most_downloads' => 'Populäreste Dateien',
+	'Most_downloads' => 'Populärste Dateien',
 	'Rated_downloads' => 'Dateien mit bester Bewertung',
 	'Total_new_files' => 'Alle neuen Downloads',
 	'Show' => 'Zeigen',
@@ -69,6 +69,7 @@ $lang = array_merge($lang, array(
 	'Cat_not_exist' => 'Die ausgewählte Kategorie existiert nicht.',
 	'File_not_exist' => 'Die ausgewählte Datei existiert nicht.',
 	'License_not_exist' => 'Die ausgewählte Lizenz existiert nicht.',
+	'No_dl_categories_exists' => 'Entweder bist du nicht berechtigt eine Kategorie anzusehen oder es ist keine Kategorie in der Datenbank vorhanden.',
 
 // File
 	'File' => 'Datei',
@@ -89,7 +90,7 @@ $lang = array_merge($lang, array(
 	'Not_available' => 'Nicht verfügbar',
 
 	'Mirrors' => 'Mirrors',
-	'Mirrors_explain' => 'Hier kannst du Mirror für die Datei hinzufühen oder bearbeiten. Stelle sicher, dass du alle Informationen geprüft hast, denn die Datei wird zu unserer Datenbank hinzugefügt.',
+	'Mirrors_explain' => 'Hier kannst du Mirror für die Datei hinzufügen oder bearbeiten. Stelle sicher, dass du alle Informationen geprüft hast, denn die Datei wird zu deiner Datenbank hinzugefügt.',
 	'Click_here_mirrors' => 'Mirror hinzufügen',
 	'Mirror_location' => 'Mirror Location',
 	'Add_new_mirror' => 'Neuen Mirror hinzufügen',
@@ -100,8 +101,8 @@ $lang = array_merge($lang, array(
 // License
 	'License' => 'Lizenzvereinbarung',
 	'Licensewarn' => 'Du musst der Lizenz zustimmen, um die Datei herunterladen zu können.',
-	'Iagree' => 'Ich stimme zu',
-	'Dontagree' => 'Ich stimme <i>nicht</i> zu',
+	'Iagree' => 'Ich stimme zu.',
+	'Dontagree' => 'Ich stimme <i>nicht</i> zu.',
 
 // Search
 	'Search' => 'Suche',
@@ -221,7 +222,7 @@ $lang = array_merge($lang, array(
 // Toplists mx blocks
 	'Recent_Public_Files' => 'Neueste Downloads',
 	'Random_Public_Files' => 'Zufällige Downloads',
-	'Toprated_Public_Files' => 'Bestbewertetste Downloads',
+	'Toprated_Public_Files' => 'Bestbewertete Downloads',
 	'Most_Public_Files' => 'Die meisten Downloads',
 	'File_Title' => 'Titel',
 	'File_Desc' => 'Beschreibung',

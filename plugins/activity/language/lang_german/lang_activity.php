@@ -118,7 +118,7 @@ $lang['admin_use_rewards_info'] = '-:- Falls du einen Rewards MOD [Points/Cash/A
 $lang['admin_cash_default_info'] = '-:- Der Activity MOD benutzt nur 1 Reward-Feld. Bitte gib ein voreingestelltes Benutzer<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reward-Feld für deine Benutzer ein. [<b>nur Cash MOD</b>]';
 
 // Activity
-$lang['not_enough_points'] = "Du hast nicht genug " . $board_config['points_name'] . ", um dieses Spiel zu spielen. <br /><a href=\"javascript:parent.window.close();\">[Close Window]</a>";
+$lang['not_enough_points'] = "Du hast nicht genug " . $config['points_name'] . ", um dieses Spiel zu spielen. <br /><a href=\"javascript:parent.window.close();\">[Close Window]</a>";
 $lang['not_enough_reward'] = "Du hast NICHT genug, um dieses Spiel zu spielen. <br /><a href=\"javascript:parent.window.close();\">[Close Window]</a>";
 $lang['game_instructions'] = 'Anweisungen';
 $lang['game_no_instructions'] = 'Keine Anweisungen.';
@@ -587,8 +587,8 @@ $lang['main_pg_order'] = '<i>&nbsp;Sortierung der Spiele auf der Spiele-Seite.</
 $lang['type_choose'] = 'Wähle einen Typ aus';
 $lang['games_played_A'] = 'gespielte Spiele, aufst.';
 $lang['games_played_D'] = 'gespielte Spiele, abst.';
-$lang['new_add'] = 'neueste Spiele';
-$lang['old_add'] = 'älteste Spiele';
+$lang['new_add'] = 'Neueste Spiele';
+$lang['old_add'] = 'Älteste Spiele';
 $lang['bonus_A'] = 'Bonus, aufst.';
 $lang['bonus_D'] = 'Bonus, abst.';
 $lang['cost_A'] = 'Kosten, aufst.';
@@ -664,7 +664,7 @@ $lang['delete_comments_message'] = ' Alle Trophäen-Kommentare löschen ';
 $lang['radio_yes'] = 'Ja';
 $lang['radio_no'] = 'Nein';
 $lang['radio_popup'] = 'PopUp';
-$lang['radio_parent'] = 'selbes Fenster';
+$lang['radio_parent'] = 'Selbes Fenster';
 $lang['use_logo'] = 'Logo auf Spiele-Seite benutzen.<br /><span class="gensmall"><center><i>Link zum Logo</i></center></span>';
 $lang['max_games_played_error'] = 'Sorry %U%, du hast dein "Spiele pro Tag"- Limit für heute erreicht. Bitte kontaktiere einen Admin, falls du weitere Fragen hast.';
 $lang['admin_xtras_game_link_msg'] = 'Falls du nach Spielen für den Activity Mod Plus suchst, klick bitte <a href="http://www.phpbb.com/phpBB/viewtopic.php?t=203074" class="nav"><i>hier</i></a>. Im ersten Beitrag dieses Themas ist eine FAQ-Sektion, die erste Frage dort sollte dir weiterhelfen.';
