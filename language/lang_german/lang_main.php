@@ -342,7 +342,7 @@ $lang = array_merge($lang, array(
 
 	'Display_posts' => 'Beiträge der letzten Zeit anzeigen',
 	'ALL_POSTS' => 'Alle Beiträge',
-	'Newest_First' => 'Die neusten zuerst',
+	'Newest_First' => 'Die neuesten zuerst',
 	'Oldest_First' => 'Die ältesten zuerst',
 
 	'Back_to_top' => 'Nach oben',
@@ -606,7 +606,7 @@ $lang = array_merge($lang, array(
 	'Invision_Signature' => 'Signatur',
 	'Invision_Website' => 'Webseite',
 	'Invision_Total_Posts' => 'Gesamtanzahl Beiträge',
-	'Invision_User_post_pct_stats' => '( %.2f%% aller Beiträge im Forum)',
+	'Invision_User_post_pct_stats' => '(%.2f%% aller Beiträge im Forum)',
 	'Invision_User_post_day_stats' => '%.2f Beiträge pro Tag',
 	'Invision_Search_user_posts' => 'Zeige alle Beiträge dieses Benutzers',
 	'Invision_Posting_details' => 'Beitragsdetails',
@@ -1844,10 +1844,17 @@ $lang = array_merge($lang, array(
 	'Online_guests' => 'Gäste',
 	'Who_is_Chatting' => 'Wer ist im Chat',
 	'Shoutbox_online_explain' => 'Diese Informationen basieren auf den Daten der aktiven Benutzer der letzten dreißig Sekunden.',
+	'Start_Private_Chat' => 'Klicke auf den Namen, um einen privaten Chat zu starten.',
+// Chat rooms
+	'Shout_rooms' => 'Räume',
+	'Admin_rooms' => 'Alle Räume',
+	'Public_room' => 'Öffentlicher Raum',
+	'Private_room' => 'Privater Raum',
+	'My_id' => 'Ich',
 // Ajax Shoutbox - END
 
 	'Contact_us' => 'Kontakt',
-	'Contact_us_explain' => 'Auf dieser Seite kannst du uns eine E-Mail senden',
+	'Contact_us_explain' => 'Auf dieser Seite kannst du uns eine E-Mail senden.',
 	'Session_invalid' => 'Ungültige Session. Bitte betrete das Forum noch einmal.',
 
 // Icy Phoenix - BUILD 007
@@ -1969,6 +1976,7 @@ $lang = array_merge($lang, array(
 	'Upload_File_Error_Size' => 'Dateigröße nicht erlaubt!',
 	'Upload_File_Error_Type' => 'Dateityp nicht erlaubt!',
 	'Upload_File_Type_Allowed' => 'Nur diese Datei-Arten können hochgeladen werden',
+	'Upload_File_Max_Size' => 'Die maximal erlaubte Größe einer Datei ist',
 	'Upload_Insert_Image' => 'Füge BBCode ein',
 	'Upload_Close' => 'Schließen',
 	'BBCode' => 'BBCode',
@@ -2401,6 +2409,7 @@ $lang = array_merge($lang, array(
 	'TOO_SMALL' => 'Der eingegebene Wert ist zu klein.',
 	'WRONG_DATA' => 'Ungültige Daten.',
 
+	'ATTACHMENTS' => 'Dateianhänge',
 	'ERROR_NO_ATTACHMENT' => 'Die Datei, die du herunterladen möchtest, existiert nicht.',
 	'NO_FORUM' => 'Das ausgewählte Forum existiert nicht.',
 	'NO_TOPIC' => 'Das Thema oder der Beitrag existiert nicht.',
@@ -2435,6 +2444,9 @@ $lang = array_merge($lang, array(
 	'IP_BLACKLISTED' => 'Deine IP-Adresse %s wurde blockiert, da sie auf der Blacklist steht. Weitere Einzelheiten gibt es hier: <a href="%s">%s</a>.',
 
 	'PRINTABLE_VERSION' => 'Druckbare Version',
+	'CHANGE_FONT_SIZE' => 'Schriftgröße ändern',
+
+	'FULL_EDITOR' => 'Wechsele zum Voll-Editor',
 
 	)
 );
