@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_activity.php 72 2009-11-29 21:23:08Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -527,7 +527,7 @@ $lang['challenge_Link'] = 'Herausforderungen-Seite';
 $lang['restriction_check_1'] = 'Sorry, du musst mindestens %B% Beiträge verfasst haben, um diese Spiele spielen zu können.';
 $lang['restriction_check_2'] = 'Sorry, du musst mindestens für %B% Tag(e) Mitglied im Forum sein, um diese Spiele spielen zu können.';
 $lang['restriction_check_3'] = 'Sorry, der Admin hat die Spiele-Seite momentan wegen Updates gesperrt. Bitte versuch es später noch einmal.';
-$lang['disabled_page_error'] = 'Sorry, der Admin hat dieses Feature zur Zeit deaktiviert.';
+$lang['disabled_page_error'] = 'Sorry, der Admin hat dieses Feature zurzeit deaktiviert.';
 $lang['online_no_hidden'] = 'Es spielen hier momentan keine versteckten Benutzer.';
 $lang['online_one_hidden'] = 'Es spielt hier momentan 1 versteckter Benutzer.';
 $lang['online_x_hidden'] = 'Es spielen hier momentan %n% versteckte Benutzer.';
